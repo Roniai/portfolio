@@ -13,12 +13,12 @@ export function LanguageSwitcher() {
   }
 
   return (
-    <div className="inline-flex items-center bg-gray-100 rounded-full p-1">
+    <div className="inline-flex items-center bg-gray-100 dark:bg-gray-700 rounded-full p-1">
       <button
         className={`px-4 py-1 rounded-full transition-colors text-sm font-medium ${
           activeLang === "en"
-            ? "bg-white shadow text-black"
-            : "text-gray-600 hover:text-black"
+            ? "bg-white dark:bg-gray-500 shadow text-black dark:text-white"
+            : "text-gray-600 dark:text-white hover:text-black"
         }`}
         onClick={() => switchTo("en")}
       >
@@ -27,8 +27,8 @@ export function LanguageSwitcher() {
       <button
         className={`px-4 py-1 rounded-full transition-colors text-sm font-medium ${
           activeLang === "fr"
-            ? "bg-white shadow text-black"
-            : "text-gray-600 hover:text-black"
+            ? "bg-white dark:bg-gray-500 shadow text-black dark:text-white"
+            : "text-gray-600 dark:text-white hover:text-black"
         }`}
         onClick={() => switchTo("fr")}
       >

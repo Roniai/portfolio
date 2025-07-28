@@ -1,4 +1,5 @@
 import { LanguageSwitcher } from "@/components/language-switcher";
+import ThemeToggle from "@/components/theme-toggle";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
@@ -7,19 +8,39 @@ export default async function Home() {
 
   return (
     <div>
-      <header>
-        <div className="m-4">
-          <LanguageSwitcher />
+      <header className="flex flex-row m-4">
+        <LanguageSwitcher />
+        <div className="ml-4">
+          <ThemeToggle />
         </div>
       </header>
       <main>
-        <div className="flex flex-row gap-20 m-14">
+        <div className="flex flex-row gap-20 m-14 font-primary">
           <div className="flex flex-col">
             <p>{t("greeting")}</p>
-            <h1>
-              {t("iam")} <strong>{t("name")}</strong>
+            <h1 className="text-4xl mt-5">
+              {t("iam")}{" "}
+              <strong className="text-purple-800 dark:text-purple-500">
+                {t("name")}
+              </strong>
             </h1>
-            <p className="flex">{t("biography")}</p>
+            <p className="mt-10">
+              {t("biography")
+                .split(".")
+                .map((line, index, array) => {
+                  if (index + 1 < array.length)
+                    return (
+                      <span key={index}>
+                        {line}. <br />
+                      </span>
+                    );
+                })}
+            </p>
+            <div className="mt-5 text-white justify-center self-end">
+              <h2 className="rounded-full bg-purple-700 px-3 justify-center text-lg inline-block">
+                {t("xp")}
+              </h2>
+            </div>
           </div>
           <Image
             src="/pdp.png"
