@@ -1,6 +1,5 @@
 import { FollowMe } from "@/components/follow-me";
-import { LanguageSwitcher } from "@/components/language-switcher";
-import ThemeToggle from "@/components/theme-toggle";
+import { NavBarMenu } from "@/components/navbar-menu";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
@@ -9,15 +8,12 @@ export default async function Home() {
 
   return (
     <div>
-      <header className="flex flex-row m-4">
-        <LanguageSwitcher />
-        <div className="ml-4">
-          <ThemeToggle />
-        </div>
+      <header>
+        <NavBarMenu />
       </header>
       <main>
         <div className="bg-gradient-to-r from-purple-300 from-10% to-white dark:from-black dark:from-30% dark:to-gray-900">
-          <div className="flex flex-row gap-20 mx-20 my-10 font-primary">
+          <div className="flex flex-row gap-20 mx-20 pt-20 font-primary">
             <div className="flex flex-col mt-14">
               <p>{t("greeting")}</p>
               <h1 className="text-4xl mt-5">

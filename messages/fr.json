@@ -7,5 +7,11 @@
     "biography": "Développeur React Native, adaptable et proactif, passionné par le développement mobile. Je suis convaincu que les smartphones sont un levier puissant pour offrir une expérience utilisateur fluide, rapide et accessible. Mon objectif : contribuer à des projets innovants qui améliorent le quotidien des utilisateurs grâce à des solutions mobiles efficaces, intuitives et durables.",
     "xp": "1 an et démi d'expérience",
     "follow": "Suivez-moi sur"
+  },
+  "NavBarMenu": {
+    "services": "Services",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
   }
 }
