@@ -1,3 +1,4 @@
+import { FollowMe } from "@/components/follow-me";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import ThemeToggle from "@/components/theme-toggle";
 import { getTranslations } from "next-intl/server";
@@ -15,39 +16,42 @@ export default async function Home() {
         </div>
       </header>
       <main>
-        <div className="flex flex-row gap-20 m-14 font-primary">
-          <div className="flex flex-col">
-            <p>{t("greeting")}</p>
-            <h1 className="text-4xl mt-5">
-              {t("iam")}{" "}
-              <strong className="text-purple-800 dark:text-purple-500">
-                {t("name")}
-              </strong>
-            </h1>
-            <p className="mt-10">
-              {t("biography")
-                .split(".")
-                .map((line, index, array) => {
-                  if (index + 1 < array.length)
-                    return (
-                      <span key={index}>
-                        {line}. <br />
-                      </span>
-                    );
-                })}
-            </p>
-            <div className="mt-5 text-white justify-center self-end">
-              <h2 className="rounded-full bg-purple-700 px-3 justify-center text-lg inline-block">
-                {t("xp")}
-              </h2>
+        <div className="bg-gradient-to-r from-purple-300 from-10% to-white dark:from-black dark:from-30% dark:to-gray-900">
+          <div className="flex flex-row gap-20 mx-20 my-10 font-primary">
+            <div className="flex flex-col mt-14">
+              <p>{t("greeting")}</p>
+              <h1 className="text-4xl mt-5">
+                {t("iam")}{" "}
+                <strong className="text-purple-800 dark:text-purple-500">
+                  {t("name")}
+                </strong>
+              </h1>
+              <p className="mt-10">
+                {t("biography")
+                  .split(".")
+                  .map((line, index, array) => {
+                    if (index + 1 < array.length)
+                      return (
+                        <span key={index}>
+                          {line}. <br />
+                        </span>
+                      );
+                  })}
+              </p>
+              <div className="mt-8 text-white justify-center">
+                <h2 className="rounded-full bg-purple-700 px-3 justify-center text-xl inline-block">
+                  {t("xp")}
+                </h2>
+              </div>
+              <FollowMe text={t("follow")} />
             </div>
+            <Image
+              src="/pdp.png"
+              alt={"Mon photo de profil"}
+              width={300}
+              height={50}
+            />
           </div>
-          <Image
-            src="/pdp.png"
-            alt={"Mon photo de profil"}
-            width={300}
-            height={50}
-          />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

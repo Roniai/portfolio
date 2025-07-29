@@ -13,7 +13,7 @@ export function LanguageSwitcher() {
   }
 
   return (
-    <div className="inline-flex items-center bg-gray-100 dark:bg-gray-700 rounded-full p-1">
+    <div className="inline-flex items-center bg-gray-200 dark:bg-gray-700 rounded-full p-1">
       <button
         className={`px-4 py-1 rounded-full transition-colors text-sm font-medium ${
           activeLang === "en"
