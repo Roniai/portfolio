@@ -20,5 +20,8 @@
     "webTitle": "Développement Web",
     "mobile": "Aujourd'hui, avoir une application mobile n'est plus un luxe, c'est une nécessité pour les entreprises qui souhaitent se rapprocher de leurs clients et offrir une expérience fluide, rapide et accessible à tout moment. En tant que développeur mobile spécialisé en React Native, je conçois des applications performantes et compatibles à la fois avec Android et iOS, tout en optimisant les coûts et les délais de développement. Mon objectif est de transformer vos idées en applications modernes, intuitives et centrées sur l'utilisateur, capables de créer un réel impact dans votre activité.",
     "web": "Avoir une présence web solide est aujourd'hui essentiel pour toute entreprise souhaitant exister et évoluer dans le monde numérique. Un site web bien conçu ne se limite pas à une simple vitrine : il devient un outil stratégique pour présenter votre activité, attirer de nouveaux clients, automatiser certaines tâches ou vendre vos produits et services. Je conçois des solutions web sur mesure, pensées pour s'adapter à vos objectifs, valoriser votre image et offrir une expérience fluide et intuitive à vos visiteurs."
+  },
+  "SkillsPage": {
+    "skillsTitle": "Mes compétences"
   }
 }
