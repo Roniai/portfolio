@@ -20,5 +20,19 @@
     "webTitle": "Web development",
     "mobile": "Today, having a mobile app is no longer a luxury, it is a necessity for businesses that want to connect with their customers and offer a seamless, fast and accessible experience at all times. As a mobile developer specialising in React Native, I design high-performance apps that are compatible with both Android and iOS, while optimising costs and development times. My goal is to transform your ideas into modern, intuitive, user-centric apps that can make a real impact on your business.",
     "web": "Having a strong web presence is essential today for any business that wants to exist and thrive in the digital world. A well-designed website is more than just a showcase: it becomes a strategic tool for presenting your business, attracting new customers, automating certain tasks, and selling your products and services. I design customised web solutions tailored to your objectives, enhancing your image and offering a smooth and intuitive experience for your visitors."
+  },
+  "SkillsPage": {
+    "skillsTitle": "My Skills",
+    "skillsSubTitle": "Assets",
+    "assets": [
+      "Organisational skills",
+      "Leadership",
+      "Proactivity",
+      "Meticulousness",
+      "Analytical mind",
+      "Adaptability",
+      "Team spirit",
+      "Autonomy"
+    ]
   }
 }

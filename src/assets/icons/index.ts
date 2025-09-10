@@ -1,0 +1,16 @@
+export { default as JavaScriptSvg } from "./javascript.svg";
+export { default as ExpoSvg } from "./expo.svg";
+export { default as FirebaseSvg } from "./firebase.svg";
+export { default as GitSvg } from "./git.svg";
+export { default as JavaSvg } from "./java.svg";
+export { default as JiraSvg } from "./jira.svg";
+export { default as MySqlSvg } from "./mysql.svg";
+export { default as NestJsSvg } from "./nestjs.svg";
+export { default as NextJsSvg } from "./nextjs.svg";
+export { default as PhpSvg } from "./php.svg";
+export { default as PostgresqlSvg } from "./postgresql.svg";
+export { default as PrismaSvg } from "./prisma.svg";
+export { default as ReactSvg } from "./react.svg";
+export { default as RestApiSvg } from "./rest-api.svg";
+export { default as TailwindCssSvg } from "./tailwind-css.svg";
+export { default as TypeScriptSvg } from "./typescript.svg";

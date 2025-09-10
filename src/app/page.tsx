@@ -1,6 +1,7 @@
 import { NavBarMenu } from "@/components/navbar-menu";
 import { HomePage } from "@/components/section/home";
 import { Services } from "@/components/section/services";
+import { Skills } from "@/components/section/skills";
 
 export default async function Home() {
   return (
@@ -12,6 +13,7 @@ export default async function Home() {
         <HomePage />
         <div className="flex flex-col space-y-16 container mx-auto">
           <Services />
+          <Skills />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
