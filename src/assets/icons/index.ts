@@ -13,4 +13,4 @@ export { default as PrismaSvg } from "./prisma.svg";
 export { default as ReactSvg } from "./react.svg";
 export { default as RestApiSvg } from "./rest-api.svg";
 export { default as TailwindCssSvg } from "./tailwind-css.svg";
-export { default as TypescriptSvg } from "./typescript.svg";
+export { default as TypeScriptSvg } from "./typescript.svg";

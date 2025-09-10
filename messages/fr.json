@@ -22,6 +22,17 @@
     "web": "Avoir une présence web solide est aujourd'hui essentiel pour toute entreprise souhaitant exister et évoluer dans le monde numérique. Un site web bien conçu ne se limite pas à une simple vitrine : il devient un outil stratégique pour présenter votre activité, attirer de nouveaux clients, automatiser certaines tâches ou vendre vos produits et services. Je conçois des solutions web sur mesure, pensées pour s'adapter à vos objectifs, valoriser votre image et offrir une expérience fluide et intuitive à vos visiteurs."
   },
   "SkillsPage": {
-    "skillsTitle": "Mes compétences"
+    "skillsTitle": "Mes compétences",
+    "skillsSubTitle": "Atouts",
+    "assets": [
+      "Capacités d'organisation",
+      "Leadership",
+      "Proactivité",
+      "Minutieux",
+      "Esprit d'analyse",
+      "Adaptabilité",
+      "Esprit d'équipe",
+      "Autonomie"
+    ]
   }
 }
