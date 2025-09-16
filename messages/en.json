@@ -36,6 +36,16 @@
     ]
   },
   "ProjectsPage": {
-    "projectTitle": "Some of My Work"
+    "projectTitle": "Some of My Work",
+    "projectsDescription": [
+      "A mobile application for ordering and home delivery, designed to offer a simple, fast and intuitive experience.",
+      "Designed for choirs, this application facilitates song rehearsals while enhancing visibility.",
+      "Mobile solution dedicated to library management: viewing current loans and updating books.",
+      "Mobile application enabling companies to efficiently manage their employees and simplify the viewing and tracking of salaries.",
+      "Portfolio website designed to showcase my projects, skills, and achievements in development, with a modern and intuitive interface.",
+      "Web application developed for the management and authorisation of precious stones leaving Ivato Antananarivo Airport.",
+      "Web solution developed for Orange Madagascar to optimise the management of its product catalogue. It simplifies the creation, tracking and archiving of offers.",
+      "Web application designed for the Customer Service Department of Bank Of Africa, aimed at automating the entry and monitoring of payment method stocks."
+    ]
   }
 }

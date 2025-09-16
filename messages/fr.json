@@ -36,6 +36,16 @@
     ]
   },
   "ProjectsPage": {
-    "projectTitle": "Mes réalisations"
+    "projectTitle": "Mes réalisations",
+    "projectsDescription": [
+      "Une application mobile de commande et livraison à domicile, pensée pour offrir une expérience simple, rapide et intuitive.",
+      "Conçue pour les chorales, cette application facilite la répétition des chants tout en renforçant sa visibilité.",
+      "Solution mobile dédiée à la gestion des bibliothèques : consultation des prêts en cours et mise à jour des ouvrages.",
+      "Application mobile permettant aux entreprises de gérer efficacement leurs employés et de simplifier la visualisation ainsi que le suivi des salaires.",
+      "Site web portfolio conçu pour présenter mes projets, compétences et réalisations en développement, avec une interface moderne et intuitive.",
+      "Application web développée, dédiée à la gestion et à l'autorisation de sortie des pierres précieuses à l'aéroport d'Ivato Antananarivo.",
+      "Solution web développée pour Orange Madagascar afin d'optimiser la gestion du catalogue d'offres. L'application simplifie la création, le suivi et l'archivage des offres.",
+      "Application web conçue pour le service Chargé Clientèle de la banque BOA, visant à automatiser la saisie et le suivi des stocks de moyens de paiement."
+    ]
   }
 }
