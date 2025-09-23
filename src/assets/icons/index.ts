@@ -23,3 +23,5 @@ export { default as SymfonySvg } from "./symfony.svg";
 export { default as IosSvg } from "./ios.svg";
 export { default as SpringBootSvg } from "./spring-boot.svg";
 export { default as QuarkusSvg } from "./quarkus.svg";
+export { default as BootStrapSvg } from "./bootstrap.svg";
+export { default as JQuerySvg } from "./jquery.svg";

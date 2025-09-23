@@ -25,6 +25,7 @@ export const Projects = async () => {
             {chunk.map((project, i) => (
               <ProjectCard
                 key={i}
+                id={rowIndex * 3 + i}
                 title={project.title}
                 description={projectsDescription[rowIndex * 3 + i]}
                 image={project.imagePath}
