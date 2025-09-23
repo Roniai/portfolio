@@ -2,6 +2,7 @@ import { SvgProps } from "@/lib/types";
 import { Drawer, DrawerTrigger } from "./ui/drawer";
 import { DrawerBottom } from "./ui/drawer-bottom";
 import { Badge } from "./ui/badge";
+import { getTranslations } from "next-intl/server";
 
 type ProjectCardProps = {
   id: number;
@@ -11,13 +12,14 @@ type ProjectCardProps = {
   stacks: React.FC<SvgProps>[];
 };
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({
+export const ProjectCard: React.FC<ProjectCardProps> = async ({
   id,
   title,
   description,
   image,
   stacks,
 }) => {
+  const t = await getTranslations("ProjectsPage");
   return (
     <Drawer>
       <div className="border border-gray-200 rounded-xl shadow-md hover:shadow-2xl transition-transform transform hover:-translate-y-2 hover:translate-z-0 duration-300 ease-in-out">
@@ -45,7 +47,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             <DrawerTrigger>
               <div className="flex justify-end">
                 <Badge variant={"outline"} className="p-2">
-                  Voir plus
+                  {t("viewMore")}
                 </Badge>
               </div>
             </DrawerTrigger>
