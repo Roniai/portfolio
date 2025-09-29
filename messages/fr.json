@@ -58,5 +58,94 @@
       "Cette application web a été développée pour le service Chargé Clientèle de la BOA Fianarantsoa, dans le but de simplifier et d'automatiser la gestion des cartes et chèques. Elle permet de soumettre des demandes de carte, de transfert ou de changement d'agence via un formulaire avec génération automatique d'un PDF, tout en facilitant la recherche et le suivi des cartes au sein de l'agence.{{break}}Les cartes provenant du siège sont organisées par lots Excel, et chaque fichier peut être importé directement dans l'application : son contenu est lu et enregistré automatiquement dans la base de données, éliminant ainsi la saisie manuelle. L'application gère également le courrier, le suivi des cartes arrivées en agence et la gestion des chèques, centralisant toutes les opérations du service, réduisant les erreurs et optimisant la gestion des stocks."
     ],
     "viewMore": "Voir plus"
+  },
+  "ExperiencesPage": {
+    "expTitle": "Mes expériences",
+    "expItems": [
+      {
+        "title": "Lead Développeur Mobile / Full Stack",
+        "type": "CDI",
+        "duration": "1 an 3 mois",
+        "startDate": "Avril 2024",
+        "endDate": "Juin 2025",
+        "description": [
+          "Développement et maintien de la stabilité d'une super-application mobile avec React Native.",
+          "Conception et développement de services web et API REST avec NestJS, Prisma, Docker et PostgreSQL.",
+          "Collaboration étroite avec le Manager et le PO pour l'évolution du produit et l'analyse des besoins utilisateurs.",
+          "Support au PO dans la gestion, le paramétrage et la personnalisation de JIRA.",
+          "Participation active aux cérémonies agiles : daily, sprint planning, rétrospectives.",
+          "Suivi avec l'équipe QA pour intégrer les retours de tests et corriger les anomalies.",
+          "Encadrement d'une équipe de développeurs, mise en place de normes et bonnes pratiques.",
+          "Utilisation de GitLab pour le versionnement et de Jest pour les tests unitaires.",
+          "Tests, débogage et revue de code afin de garantir la qualité des livrables.",
+          "Participation à la publication de l'application sur Google Play Store et App Store en collaboration avec le DevOps."
+        ]
+      },
+      {
+        "title": "Développeur Front-End / Intégrateur UI",
+        "type": "CDI",
+        "duration": "3 mois",
+        "startDate": "Janvier 2024",
+        "endDate": "Mars 2024",
+        "description": [
+          "Conception d'un design system (fondations et composants réutilisables).",
+          "Intégration des maquettes en collaboration avec l'équipe design.",
+          "Gestion et intégration de Firestore / Firebase.",
+          "Suivi du projet via JIRA.",
+          "Étude approfondie des bases de JavaScript pour consolider les compétences."
+        ]
+      },
+      {
+        "title": "Développeur Web Full Stack",
+        "type": "Freelance",
+        "duration": "3 mois",
+        "startDate": "Août 2023",
+        "endDate": "Octobre 2023",
+        "description": [
+          "Conception et développement d'une application web, facilitant la gestion des autorisations de sortie de pierres précieuses.",
+          "Génération automatique de QR Codes et PDF pour chaque document, assurant traçabilité et praticité.",
+          "Gestion des pièces jointes : stockage sécurisé des fichiers et accès lors de la consultation.",
+          "Mise en place d'une authentification sécurisée et d'interfaces adaptées aux différents rôles pour une gestion organisée et efficace."
+        ]
+      },
+      {
+        "title": "Développeur Web / Intégrateur PHP-MySQL",
+        "type": "Stage",
+        "duration": "6 mois",
+        "startDate": "Mai 2023",
+        "endDate": "Octobre 2023",
+        "description": [
+          "Intégration, refonte et optimisation de plateformes existantes en PHP / MySQL.",
+          "Approfondissement des compétences en PHP natif et en SQL pur.",
+          "Intégration de ZOHO dans la plateforme pour enrichir les fonctionnalités.",
+          "Gestion efficace du travail en équipe, respect des délais et amélioration de la collaboration au quotidien."
+        ]
+      },
+      {
+        "title": "Développeur Web Junior / Full Stack",
+        "type": "Stage",
+        "duration": "4 mois",
+        "startDate": "Mars 2021",
+        "endDate": "Juin 2021",
+        "description": [
+          "Conception et développement d'une application web intranet de gestion de catalogue d'offres, facilitant la création et la consultation via une interface adaptée.",
+          "Initiation au travail en équipe et bonnes pratiques de versioning avec GitLab.",
+          "Mise en oeuvre d'API REST et découverte de Quarkus (Java), des technologies étudiées et appliquées de manière anticipée par rapport au cursus académique.",
+          "Réalisation d'un premier projet concret avec Angular (JavaScript) après des études théoriques préalables."
+        ]
+      },
+      {
+        "title": "Développeur Web Junior PHP",
+        "type": "Stage",
+        "duration": "3 mois",
+        "startDate": "Décembre 2019",
+        "endDate": "Février 2020",
+        "description": [
+          "Conception et développement d'une application de gestion des moyens de paiement destinée à la clientèle, utilisant PHP et MySQL.",
+          "Génération automatique de PDF à partir d'un formulaire rempli par l'utilisateur.",
+          "Importation et traitement de fichiers Excel, avec enregistrement automatique des données dans la base."
+        ]
+      }
+    ]
   }
 }

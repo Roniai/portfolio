@@ -25,4 +25,7 @@ export enum LABELS_STACKS {
   PRISMA = "Prisma",
   JWT = "JWT",
   JQUERY = "jQuery",
+  ZOHO = "Zoho",
+  AGILE = "Agile SCRUM",
+  JIRA = "Jira",
 }

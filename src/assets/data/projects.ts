@@ -48,6 +48,8 @@ export const projectsData = [
       LABELS_STACKS.MAPS,
       LABELS_STACKS.JWT,
       LABELS_STACKS.POSTGRE_SQL,
+      LABELS_STACKS.AGILE,
+      LABELS_STACKS.JIRA,
     ],
   },
   {

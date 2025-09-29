@@ -1,22 +1,22 @@
 import { projectsData } from "@/assets/data/projects";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "./carousel";
+} from "./ui/carousel";
 import {
   DrawerClose,
   DrawerContent,
   DrawerFooter,
   DrawerHeader,
   DrawerTitle,
-} from "./drawer";
+} from "./ui/drawer";
 import { getTranslations } from "next-intl/server";
-import { Badge } from "./badge";
-import { CardContent } from "./card";
+import { Badge } from "./ui/badge";
+import { CardContent } from "./ui/card";
 
 export const DrawerBottom = async ({ id }: { id: number }) => {
   const t = await getTranslations("ProjectsPage");
