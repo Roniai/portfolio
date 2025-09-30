@@ -42,8 +42,19 @@ export const ExperienceCard: React.FC<XPprops> = ({
       <AccordionTrigger className="group w-full">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 items-center justify-center">
-            <div className="flex items-center justify-center rounded-sm w-6 h-6 bg-slate-500">
+            <div className="relative flex items-center justify-center rounded-sm w-6 h-6 bg-slate-500">
               <Icon width={20} height={20} color={"white"} />
+              {isContinue && (
+                <Separator
+                  orientation="vertical"
+                  className="
+                    absolute top-full left-1/2 -translate-x-1/2
+                    w-p
+                    transition-all duration-400
+                    h-20 group-data-[state=open]:h-[450px]
+                  "
+                />
+              )}
             </div>
             <p className="flex text-xl">{title}</p>
           </div>
@@ -58,7 +69,7 @@ export const ExperienceCard: React.FC<XPprops> = ({
           <div className="flex ml-10 gap-4 items-center">
             {company && <Badge variant={"default"}>{company}</Badge>}
             {companyLocation && <p className="text-xs">{companyLocation}</p>}
-            <Badge variant={"outline"}>{type}</Badge>
+            {type && <Badge variant={"outline"}>{type}</Badge>}
           </div>
           <p className="text-xs mr-10">{duration}</p>
         </div>

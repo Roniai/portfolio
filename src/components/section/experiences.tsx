@@ -19,22 +19,21 @@ export const Experiences = async () => {
         defaultValue="1"
       >
         {expItems.map((exp: any, index: number) => {
-          const customIndex = index < 2 ? 0 : index - 1;
           return (
             <ExperienceCard
               key={index}
               icon={index < 2 ? MobileSvg : WebSvg}
               descriptions={exp.description}
-              stacks={COMPANY[customIndex].stacks}
+              stacks={COMPANY[index].stacks}
               title={exp.title}
               endDate={exp.endDate}
               startDate={exp.startDate}
               duration={exp.duration}
               type={exp.type}
-              companyLocation={COMPANY[customIndex]?.location}
-              company={COMPANY[customIndex]?.name}
+              companyLocation={COMPANY[index]?.location}
+              company={COMPANY[index]?.name}
               value={index.toString()}
-              isContinue
+              isContinue={index === 0}
             />
           );
         })}

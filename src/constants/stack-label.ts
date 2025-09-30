@@ -3,6 +3,8 @@ export enum LABELS_STACKS {
   IOS = "iOS",
   REACT_NATIVE = "React Native",
   EXPO = "Expo",
+  RECOIL = "Recoil",
+  CONTEXT = "Context API",
   NEXT_JS = "Next.js",
   BOOTSTRAP = "Bootstrap",
   TAILWIND_CSS = "Tailwind CSS",
@@ -19,6 +21,7 @@ export enum LABELS_STACKS {
   JAVA = "Java",
   PHP = "PHP",
   FIREBASE = "Firebase",
+  FIRESTORE = "Firestore",
   MAPS = "Google Maps",
   POSTGRE_SQL = "PostgreSQL",
   MYSQL = "MySQL",
@@ -28,4 +31,5 @@ export enum LABELS_STACKS {
   ZOHO = "Zoho",
   AGILE = "Agile SCRUM",
   JIRA = "Jira",
+  FIGMA = "Figma",
 }
