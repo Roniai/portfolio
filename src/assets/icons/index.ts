@@ -25,3 +25,5 @@ export { default as SpringBootSvg } from "./spring-boot.svg";
 export { default as QuarkusSvg } from "./quarkus.svg";
 export { default as BootStrapSvg } from "./bootstrap.svg";
 export { default as JQuerySvg } from "./jquery.svg";
+export { default as WebSvg } from "./web.svg";
+export { default as MobileSvg } from "./mobile.svg";

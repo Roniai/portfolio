@@ -1,4 +1,5 @@
 import { NavBarMenu } from "@/components/navbar-menu";
+import { Experiences } from "@/components/section/experiences";
 import { HomePage } from "@/components/section/home";
 import { Projects } from "@/components/section/projets";
 import { Services } from "@/components/section/services";
@@ -16,6 +17,7 @@ export default async function Home() {
           <Services />
           <Skills />
           <Projects />
+          <Experiences />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

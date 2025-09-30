@@ -1,6 +1,6 @@
 import { SvgProps } from "@/lib/types";
 import { Drawer, DrawerTrigger } from "./ui/drawer";
-import { DrawerBottom } from "./ui/drawer-bottom";
+import { DrawerBottom } from "./drawer-bottom";
 import { Badge } from "./ui/badge";
 import { getTranslations } from "next-intl/server";
 

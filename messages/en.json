@@ -58,5 +58,94 @@
       "This web application was developed for the Customer Service Department of BOA Fianarantsoa, with the aim of simplifying and automating card and cheque management. It allows card requests, transfers or branch changes to be submitted via a form with automatic PDF generation, while facilitating the search and tracking of cards within the branch.{{break}} Cards from head office are organised into Excel batches, and each file can be imported directly into the application: its content is read and automatically saved in the database, eliminating the need for manual data entry. The application also manages mail, tracks cards arriving at the branch and manages cheques, centralising all the department's operations, reducing errors and optimising stock management."
     ],
     "viewMore": "View more"
+  },
+  "ExperiencesPage": {
+    "expTitle": "My work experiences",
+    "expItems": [
+      {
+        "title": "Lead Mobile / Full Stack Developer",
+        "type": "Permanent contract",
+        "duration": "1 year 3 months",
+        "startDate": "April 2024",
+        "endDate": "June 2025",
+        "description": [
+          "Development and maintenance of a mobile super-app with React Native.",
+          "Design and development of web services and REST APIs with NestJS, Prisma, Docker and PostgreSQL.",
+          "Close collaboration with the Manager and PO for product development and user needs analysis.",
+          "Support to the PO in the management, configuration and customisation of JIRA.",
+          "Active participation in agile ceremonies: daily, sprint planning, retrospectives.",
+          "Follow-up with the QA team to integrate test feedback and correct anomalies.",
+          "Supervision of a team of developers, implementation of standards and best practices.",
+          "Use of GitLab for versioning and Jest for unit testing.",
+          "Testing, debugging and code review to ensure the quality of deliverables.",
+          "Participation in the publication of the application on Google Play Store and App Store in collaboration with DevOps."
+        ]
+      },
+      {
+        "title": "Front-End Developer / UI Integrator",
+        "type": "Permanent contract",
+        "duration": "3 months",
+        "startDate": "January 2024",
+        "endDate": "March 2024",
+        "description": [
+          "Designing a design system (foundations and reusable components).",
+          "Integration of mock-ups in collaboration with the design team.",
+          "Management and integration of Firestore / Firebase.",
+          "Project monitoring via JIRA.",
+          "In-depth study of JavaScript basics to consolidate skills."
+        ]
+      },
+      {
+        "title": "Full Stack Web Developer",
+        "type": "Freelance",
+        "duration": "3 months",
+        "startDate": "August 2023",
+        "endDate": "October 2023",
+        "description": [
+          "Design and development of a web application to facilitate the management of gemstone release authorisations.",
+          "Automatic generation of QR codes and PDFs for each document, ensuring traceability and practicality.",
+          "Attachment management: secure file storage and access during consultation.",
+          "Implementation of secure authentication and interfaces adapted to different roles for organised and efficient management."
+        ]
+      },
+      {
+        "title": "Web Developer / PHP-MySQL Integrator",
+        "type": "Internship",
+        "duration": "6 months",
+        "startDate": "May 2023",
+        "endDate": "October 2023",
+        "description": [
+          "Integration, redesign and optimisation of existing PHP/MySQL platforms.",
+          "Further development of native PHP and pure SQL skills.",
+          "Integration of ZOHO into the platform to enhance functionality.",
+          "Effective management of teamwork, meeting deadlines and improving day-to-day collaboration."
+        ]
+      },
+      {
+        "title": "Junior Full Stack Web Developer",
+        "type": "Internship",
+        "duration": "4 months",
+        "startDate": "March 2021",
+        "endDate": "June 2021",
+        "description": [
+          "Design and development of an intranet web application for managing the offer catalogue, facilitating creation and consultation via a tailored interface.",
+          "Introduction to teamwork and best practices for versioning with GitLab.",
+          "Implementation of REST APIs and discovery of Quarkus (Java), technologies studied and applied in advance of the academic curriculum.",
+          "Completion of a first concrete project with Angular (JavaScript) after prior theoretical studies."
+        ]
+      },
+      {
+        "title": "Junior PHP Web Developer",
+        "type": "Internship",
+        "duration": "3 months",
+        "startDate": "December 2019",
+        "endDate": "February 2020",
+        "description": [
+          "Design and development of a payment management application for customers, using PHP and MySQL.",
+          "Automatic generation of PDFs from a form completed by the user.",
+          "Import and processing of Excel files, with automatic data recording in the database."
+        ]
+      }
+    ]
   }
 }
