@@ -5,7 +5,7 @@
     "name": "Fehizoroniaina Indrafo",
     "title": "Développeur Full Stack Mobile",
     "biography": "Développeur React Native, adaptable et proactif, passionné par le développement mobile. Je suis convaincu que les smartphones sont un levier puissant pour offrir une expérience utilisateur fluide, rapide et accessible. Mon objectif : contribuer à des projets innovants qui améliorent le quotidien des utilisateurs grâce à des solutions mobiles efficaces, intuitives et durables.",
-    "xp": "1 an et démi d'expérience",
+    "xp": "2 ans d'expérience",
     "follow": "Suivez-moi sur"
   },
   "NavBarMenu": {
@@ -138,8 +138,8 @@
         "title": "Développeur Web Junior PHP",
         "type": "Stage",
         "duration": "3 mois",
-        "startDate": "Décembre 2019",
-        "endDate": "Février 2020",
+        "startDate": "Novembre 2019",
+        "endDate": "Janvier 2020",
         "description": [
           "Conception et développement d'une application de gestion des moyens de paiement destinée à la clientèle, utilisant PHP et MySQL.",
           "Génération automatique de PDF à partir d'un formulaire rempli par l'utilisateur.",
@@ -147,5 +147,17 @@
         ]
       }
     ]
+  },
+  "ContactPage": {
+    "contactTitle": "Me contacter",
+    "formName": "Nom",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formNamePlaceHolder": "Entrez votre nom",
+    "formEmailPlaceHolder": "Entrez votre adresse email",
+    "formMessagePlaceHolder": "Entrez votre message",
+    "letsConnectHeader": "Besoin d'une application mobile ou web ?",
+    "letsConnectBody": "Je peux vous aider à la concrétiser. Discutons de votre idée, de vos besoins, ou simplement de vos inspirations.",
+    "letsConnectFooter": "Restons en contact — le premier pas vers votre prochain projet commence ici."
   }
 }
