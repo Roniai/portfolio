@@ -23,9 +23,11 @@ export const Contact = async () => {
                 .split("—")
                 .map((text, index) =>
                   index === 0 ? (
-                    <span className="font-bold text-purple-600">{text}</span>
+                    <span key={index} className="font-bold text-purple-600">
+                      {text}
+                    </span>
                   ) : (
-                    <span> — {text}</span>
+                    <span key={index}> — {text}</span>
                   )
                 )}
             </p>
@@ -45,7 +47,18 @@ export const Contact = async () => {
             </div>
           </div>
         </div>
-        <ContactForms />
+        <ContactForms
+          formName={t("formName")}
+          formNamePlaceHolder={t("formNamePlaceHolder")}
+          formEmail={t("formEmail")}
+          formEmailPlaceHolder={t("formEmailPlaceHolder")}
+          formMessage={t("formMessage")}
+          formMessagePlaceHolder={t("formMessagePlaceHolder")}
+          sendButton={t("sendButton")}
+          successMessage={t("successMessage")}
+          errorMessage={t("errorMessage")}
+          waitMessage={t("waitMessage")}
+        />
       </div>
     </section>
   );

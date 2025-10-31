@@ -1,44 +1,106 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Field, FieldGroup, FieldLabel, FieldSet } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "./ui/card";
-import { getTranslations } from "next-intl/server";
+import emailjs from "@emailjs/browser";
+import { FormEvent } from "react";
+import { ToastContainer, toast, Bounce } from "react-toastify";
 
-export const ContactForms = async () => {
-  const t = await getTranslations("ContactPage");
+type Props = {
+  formName: string;
+  formNamePlaceHolder: string;
+  formEmail: string;
+  formEmailPlaceHolder: string;
+  formMessage: string;
+  formMessagePlaceHolder: string;
+  sendButton: string;
+  successMessage: string;
+  errorMessage: string;
+  waitMessage: string;
+};
+
+export const ContactForms: React.FC<Props> = ({
+  formName,
+  formEmail,
+  formMessage,
+  formNamePlaceHolder,
+  formEmailPlaceHolder,
+  formMessagePlaceHolder,
+  sendButton,
+  successMessage,
+  errorMessage,
+  waitMessage,
+}) => {
+  const sendEmail = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    toast.info(waitMessage);
+
+    const formData = new FormData(event.currentTarget);
+
+    const templateParams = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
+
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_SERVICE_ID ?? "",
+        process.env.NEXT_PUBLIC_TEMPLATE_ID ?? "",
+        templateParams,
+        {
+          publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+        }
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          toast.success(successMessage);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+          toast.error(errorMessage);
+        }
+      );
+  };
 
   return (
     <Card className="w-full pt-10 px-2 shadow-lg">
       <CardContent>
-        <form>
+        <form onSubmit={sendEmail}>
           <FieldGroup>
             <FieldSet>
               <FieldGroup>
                 <Field>
-                  <FieldLabel htmlFor="name">{t("formName")}</FieldLabel>
+                  <FieldLabel htmlFor="name">{formName}</FieldLabel>
                   <Input
                     id="name"
-                    placeholder={t("formNamePlaceHolder")}
+                    name="name"
+                    placeholder={formNamePlaceHolder}
                     className="border border-slate-400 "
                     required
                   />
                 </Field>
                 <Field>
-                  <FieldLabel htmlFor="email">{t("formEmail")}</FieldLabel>
+                  <FieldLabel htmlFor="email">{formEmail}</FieldLabel>
                   <Input
                     id="email"
-                    placeholder={t("formEmailPlaceHolder")}
+                    name="email"
+                    placeholder={formEmailPlaceHolder}
                     type="email"
                     className="border border-slate-400"
                     required
                   />
                 </Field>
                 <Field>
-                  <FieldLabel htmlFor="message">{t("formMessage")}</FieldLabel>
+                  <FieldLabel htmlFor="message">{formMessage}</FieldLabel>
                   <Textarea
                     id="message"
-                    placeholder={t("formMessagePlaceHolder")}
+                    name="message"
+                    placeholder={formMessagePlaceHolder}
                     className="border border-slate-400"
                     required
                   />
@@ -52,8 +114,21 @@ export const ContactForms = async () => {
                   dark:hover:text-black dark:hover:bg-white
                   hover:bg-black hover:text-white"
               >
-                Send
+                {sendButton}
               </Button>
+              <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick={false}
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+                transition={Bounce}
+              />
             </Field>
           </FieldGroup>
         </form>
