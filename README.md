@@ -10,7 +10,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## EmailJS configuration
 
-- Sign in to tour account
+- [Sign in](https://dashboard.emailjs.com/sign-in) to your account
 - Go to the **Email Services** menu and **Add New Service**. Choose **Gmail** and connect your Account (Email address) to the service.
 - Go to the **Email Templates** menu and **Create New Template**. Choose **Contact Us** and Create the template. You can customize the template as you want.
 - Create **.env** file in your project root like the **.env.example** and use your IDs in your EmailJS
