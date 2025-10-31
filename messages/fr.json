@@ -158,6 +158,10 @@
     "formMessagePlaceHolder": "Entrez votre message",
     "letsConnectHeader": "Besoin d'une application mobile ou web ?",
     "letsConnectBody": "Je peux vous aider à la concrétiser. Discutons de votre idée, de vos besoins, ou simplement de vos inspirations.",
-    "letsConnectFooter": "Restons en contact — le premier pas vers votre prochain projet commence ici."
+    "letsConnectFooter": "Restons en contact — le premier pas vers votre prochain projet commence ici.",
+    "sendButton": "Envoyer",
+    "successMessage": "Votre message a été envoyé",
+    "errorMessage": "Une erreur s'est produite, veuillez réessayer",
+    "waitMessage": "Envoi en cours... veuillez patienter"
   }
 }
