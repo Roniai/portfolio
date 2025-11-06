@@ -19,7 +19,7 @@ export default async function Home() {
       </header>
       <main className="overflow-x-hidden">
         <HomePage />
-        <div className="flex flex-col space-y-16 container mx-auto">
+        <div className="flex flex-col space-y-16 xl:container mx-auto px-4">
           <Services />
           <Skills />
           <Projects />
