@@ -6,14 +6,18 @@ import { HomePage } from "@/components/section/home";
 import { Projects } from "@/components/section/projets";
 import { Services } from "@/components/section/services";
 import { Skills } from "@/components/section/skills";
+import { getTranslations } from "next-intl/server";
 
 export default async function Home() {
+  const t = await getTranslations("NavBarMenu");
+  const menu = t.raw("menu");
+
   return (
     <div>
       <header>
-        <NavBarMenu />
+        <NavBarMenu menu={menu} />
       </header>
-      <main>
+      <main className="overflow-x-hidden">
         <HomePage />
         <div className="flex flex-col space-y-16 container mx-auto">
           <Services />
@@ -23,7 +27,7 @@ export default async function Home() {
           <Contact />
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex gap-24 flex-wrap items-center justify-center">
         <Footer />
       </footer>
     </div>
