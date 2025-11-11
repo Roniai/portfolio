@@ -9,9 +9,12 @@ export const Contact = async () => {
   const t = await getTranslations("ContactPage");
 
   return (
-    <section id="contact" className="font-primary mx-20 scroll-mt-20">
+    <section
+      id="contact"
+      className="font-primary scroll-mt-20 px-4 sm:px-6 lg:px-20"
+    >
       <SectionTitle title={t("contactTitle")} />
-      <div className="grid grid-cols-2 gap-32">
+      <div className="grid lg:grid-cols-2 gap-10 lg:gap-32">
         <div className="space-y-10">
           <div className="space-y-5">
             <p className="text-md font-bold text-purple-600">
