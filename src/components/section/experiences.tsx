@@ -10,12 +10,12 @@ export const Experiences = async () => {
   const expItems = t.raw("expItems");
 
   return (
-    <section className="font-primary mx-20 scroll-mt-20">
+    <section className="font-primary scroll-mt-20 px-4 sm:px-6 xl:px-20">
       <SectionTitle title={t("expTitle")} />
       <Accordion
         type="single"
         collapsible
-        className="w-full px-36"
+        className="w-full px-0 sm:px-10 xl:px-36"
         defaultValue="1"
       >
         {expItems.map((exp: any, index: number) => {

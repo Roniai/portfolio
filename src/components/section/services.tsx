@@ -20,18 +20,24 @@ export const Services = async () => {
   }) => {
     return (
       <div
-        className={`flex ${
-          position === "right" ? "flex-row-reverse" : "flex-row"
-        } mb-32 gap-40`}
+        className={`flex flex-col ${
+          position === "right" ? "lg:flex-row-reverse" : "lg:flex-row"
+        } mb-4 lg:mb-32 gap-10 lg:gap-40`}
       >
-        <div className="mt-20">
-          <h2 className="text-3xl font-bold">
+        <div className="mt-5 lg:mt-20">
+          <h2 className="text-[clamp(1.5rem,5vw,4rem)] md:text-3xl font-bold">
             <span className="text-purple-700 mr-4">#</span>
             {title}
           </h2>
           <p className="mt-4">{textBody}</p>
         </div>
-        <Image src={imageSrc} alt={imageAlt} width={350} height={10} />
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          width={350}
+          height={10}
+          className="w-full max-w-[250px] lg:max-w-[350px] h-auto mx-auto"
+        />
       </div>
     );
   };
@@ -39,7 +45,10 @@ export const Services = async () => {
   const t = await getTranslations("ServicesPage");
 
   return (
-    <section id="services" className="font-primary mx-20 scroll-mt-20">
+    <section
+      id="services"
+      className="font-primary scroll-mt-20 px-4 sm:px-6 lg:px-20"
+    >
       <SectionTitle title={t("serviceTitle")} />
       <ServiceContent
         title={t("mobileTitle")}

@@ -10,10 +10,13 @@ export const Skills = async () => {
   const assets = t.raw("assets");
 
   return (
-    <section id="skills" className="font-primary mx-20 scroll-mt-20">
+    <section
+      id="skills"
+      className="font-primary scroll-mt-20 px-4 sm:px-6 lg:px-20"
+    >
       <SectionTitle title={t("skillsTitle")} />
-      <div className="grid grid-cols-2">
-        <div className="grid grid-cols-4">
+      <div className="grid md:grid-cols-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
           {techStackData.map((tech, index) => (
             <TechStack
               key={index}
@@ -23,10 +26,10 @@ export const Skills = async () => {
             />
           ))}
         </div>
-        <div className="ml-20">
+        <div className="mt-6 md:mt-0 md:ml-20">
           <div className="flex gap-2 items-center">
             <ShieldPlus color="#7e22ce" size={40} />
-            <span className="text-purple-700 font-bold text-4xl">
+            <span className="text-purple-700 font-bold text-[clamp(2rem,4vw,3rem)] md:text-4xl">
               {t("skillsSubTitle")}
             </span>
           </div>

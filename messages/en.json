@@ -8,12 +8,7 @@
     "xp": "2 years of experience",
     "follow": "Follow me on"
   },
-  "NavBarMenu": {
-    "services": "Services",
-    "skills": "Skills",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
+  "NavBarMenu": { "menu": ["Services", "Skills", "Projects", "Contact"] },
   "ServicesPage": {
     "serviceTitle": "What can I do for you ?",
     "mobileTitle": "Mobile Application",

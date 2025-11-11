@@ -8,7 +8,7 @@ type TechProps = {
 
 export const TechStack = ({ label, level, icon: Icon }: TechProps) => {
   return (
-    <div className="flex flex-col items-center mb-2">
+    <div className="flex flex-col items-center mb-5">
       <div className="relative w-28 h-28 rounded-2xl border-4 overflow-hidden bg-gray-600">
         <div
           className="absolute bottom-0 left-0 w-full bg-purple-600 animate-wave"

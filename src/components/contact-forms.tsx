@@ -68,7 +68,7 @@ export const ContactForms: React.FC<Props> = ({
   };
 
   return (
-    <Card className="w-full pt-10 px-2 shadow-lg">
+    <Card className="w-full pt-10 px-0 lg:px-2 shadow-lg">
       <CardContent>
         <form onSubmit={sendEmail}>
           <FieldGroup>

@@ -6,10 +6,10 @@ export const HomePage = async () => {
   const t = await getTranslations("HomePage");
 
   return (
-    <div className="bg-gradient-to-r left-0 from-purple-300 from-10% to-white dark:from-black dark:from-30% dark:to-gray-900">
-      <div className="container mx-auto">
-        <div className="flex flex-row gap-20 pt-20 mb-16 font-primary  mx-20">
-          <div className="flex flex-col mt-14">
+    <div className="bg-gradient-to-r left-0 from-purple-300 from-10% to-white dark:from-gray-900 dark:from-30% dark:to-neutral-950  ">
+      <div className="xl:container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-20 pt-14 lg:pt-20 mb-16 font-primary px-4 sm:px-6 lg:px-20">
+          <div className="flex flex-col w-full mt-14 min-w-0">
             <p>{t("greeting")}</p>
             <h1 className="text-4xl mt-5">
               {t("iam")}{" "}
@@ -40,7 +40,8 @@ export const HomePage = async () => {
             src="/pdp.png"
             alt={"Mon photo de profil"}
             width={300}
-            height={50}
+            height={300}
+            className="w-full max-w-[200px] lg:max-w-[300px] h-auto mx-auto"
           />
         </div>
       </div>

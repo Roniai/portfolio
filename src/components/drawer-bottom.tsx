@@ -28,26 +28,30 @@ export const DrawerBottom = async ({ id }: { id: number }) => {
       <DrawerHeader>
         <DrawerTitle></DrawerTitle>
       </DrawerHeader>
-      <div className="flex justify-center pl-20 pr-8 gap-28">
-        <Carousel className="w-[50vw]">
-          <CarouselContent className="flex items-center">
-            {projectsData[id].imagePaths.map((path, index) => (
-              <CarouselItem key={index}>
-                <CardContent className="flex items-center justify-center w-[50vw]">
-                  <img
-                    src={path}
-                    alt={path}
-                    className="object-contain h-[75vh]"
-                  />
-                </CardContent>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
-        <div className="">
-          <h2 className="text-3xl text-purple-700">{projectsData[id].title}</h2>
+      <div className="flex flex-col lg:flex-row justify-center gap-5">
+        <div className="flex self-center lg:pl-20">
+          <Carousel className="w-[70vw] lg:w-[50vw]">
+            <CarouselContent className="flex items-center">
+              {projectsData[id].imagePaths.map((path, index) => (
+                <CarouselItem key={index}>
+                  <CardContent className="flex items-center justify-center w-[70vw] lg:w-[50vw]">
+                    <img
+                      src={path}
+                      alt={path}
+                      className="object-contain h-[40vh] lg:h-[75vh]"
+                    />
+                  </CardContent>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+        <div className="overflow-y-scroll xl:overflow-y-hidden h-[35vh] lg:h-[75vh] xl:h-auto px-6 lg:pl-20">
+          <h2 className="text-[clamp(1.5rem,5vw,4rem)] md:text-3xl text-purple-700">
+            {projectsData[id].title}
+          </h2>
           <div className="mt-5">
             {parts.map((part: any, index: number) => (
               <p key={index} className="mb-4">
