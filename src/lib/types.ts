@@ -5,3 +5,10 @@ export interface SvgProps extends SVGProps<SVGSVGElement> {
   height?: number;
   color?: string;
 }
+
+export enum Edirection {
+  UP = "up",
+  DOWN = "down",
+  LEFT = "left",
+  RIGHT = "right",
+}

@@ -8,7 +8,7 @@ export const HomePage = async () => {
   return (
     <div className="bg-gradient-to-r left-0 from-purple-300 from-10% to-white dark:from-gray-900 dark:from-30% dark:to-neutral-950  ">
       <div className="xl:container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row gap-5 lg:gap-20 pt-14 lg:pt-20 mb-16 font-primary px-4 sm:px-6 lg:px-20">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-20 pt-14 lg:pt-20 mb-16 font-primary px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col w-full mt-14 min-w-0">
             <p>{t("greeting")}</p>
             <h1 className="text-4xl mt-5">

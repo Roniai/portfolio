@@ -11,7 +11,7 @@ export const Contact = async () => {
   return (
     <section
       id="contact"
-      className="font-primary scroll-mt-20 px-4 sm:px-6 lg:px-20"
+      className="font-primary scroll-mt-20 px-4 sm:px-6 lg:px-10"
     >
       <SectionTitle title={t("contactTitle")} />
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-32">

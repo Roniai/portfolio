@@ -10,7 +10,7 @@ export const Projects = async () => {
   return (
     <section
       id="projects"
-      className="font-primary scroll-mt-20 px-4 sm:px-6 xl:px-20"
+      className="font-primary scroll-mt-20 px-4 sm:px-6 xl:px-10"
     >
       <SectionTitle title={t("projectTitle")} />
       <div className="space-y-10">
