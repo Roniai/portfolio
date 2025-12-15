@@ -27,3 +27,4 @@ export { default as BootStrapSvg } from "./bootstrap.svg";
 export { default as JQuerySvg } from "./jquery.svg";
 export { default as WebSvg } from "./web.svg";
 export { default as MobileSvg } from "./mobile.svg";
+export { default as MobileColorfulSvg } from "./mobile-colorful.svg";

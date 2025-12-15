@@ -1,4 +1,7 @@
 {
+  "SplashScreen": {
+    "greeting": "Rêvez-le. Laissez-moi construire votre application mobile."
+  },
   "HomePage": {
     "greeting": "Bonjour !",
     "iam": "Je suis",

@@ -2,7 +2,6 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { FollowMe } from "../follow-me";
 import { DOUBLE_BRACKET_REGEX } from "@/constants/regex";
-import { TypingAnimation } from "../typing-animation";
 
 export const HomePage = async () => {
   const t = await getTranslations("HomePage");
@@ -16,7 +15,7 @@ export const HomePage = async () => {
             <h1 className="text-4xl mt-5">
               {t("iam")}{" "}
               <strong className="text-purple-800 dark:text-purple-500">
-                <TypingAnimation text={t("name")}></TypingAnimation>
+                {t("name")}
               </strong>
             </h1>
             <p className="mt-10">
