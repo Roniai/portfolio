@@ -1,16 +1,26 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function LanguageSwitcher() {
   const router = useRouter();
-  const [activeLang, setActiveLang] = useState<"en" | "fr">("en");
+  const [activeLang, setActiveLang] = useState<"en" | "fr">();
 
   function switchTo(lang: "fr" | "en") {
     setActiveLang(lang);
     document.cookie = `NEXT_LOCALE=${lang}; path=/`;
     router.refresh();
   }
+
+  useEffect(() => {
+    const cookie = document.cookie
+      .split("; ")
+      .find((c) => c.startsWith("NEXT_LOCALE="));
+
+    if (cookie) {
+      setActiveLang(cookie.split("=")[1] as "en" | "fr");
+    }
+  }, []);
 
   return (
     <div className="inline-flex items-center bg-gray-200 dark:bg-gray-700 rounded-full p-1">
