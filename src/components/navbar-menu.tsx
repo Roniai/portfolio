@@ -4,6 +4,7 @@ import { LanguageSwitcher } from "./language-switcher";
 import ThemeToggle from "./theme-toggle";
 import { NAVBAR_MENU } from "@/constants/menu";
 import { MenuIcon, XIcon } from "lucide-react";
+import DownloadCV from "./download-cv";
 
 export const NavBarMenu = ({ menu }: { menu: any[] }) => {
   const [open, setOpen] = useState(false);
@@ -17,12 +18,14 @@ export const NavBarMenu = ({ menu }: { menu: any[] }) => {
         </div>
 
         <button
-          className="flex items-center sm:hidden text-gray-800 dark:text-white"
+          className="flex items-center sm:hidden text-gray-800 dark:text-white gap-2"
           onClick={() => setOpen(!open)}
         >
+          <DownloadCV />
           <MenuIcon className="h-10 w-10" />
         </button>
         <ul className="hidden sm:flex gap-6 items-center">
+          <DownloadCV />
           {menu.map((item, index) => (
             <li key={index}>
               <a href={`#${NAVBAR_MENU[index]}`}>{item}</a>
