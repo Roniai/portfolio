@@ -1,7 +1,8 @@
 "use client";
 import { Edirection } from "@/lib/types";
-import { motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 import * as React from "react";
+import { useEffect, useRef } from "react";
 
 export function FadeAnimation({
   direction,
@@ -16,12 +17,16 @@ export function FadeAnimation({
   staggerChildren?: number;
   delay?: number;
 }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const controls = useAnimation();
+  const inView = useInView(ref, { amount: 0.2 });
+
   const variants: any = {
     visible: {
       opacity: 1,
       y: 0,
       x: 0,
-      transition: { type: "spring", delay: delay },
+      transition: { type: "spring", delay },
     },
     hidden: {
       opacity: 0,
@@ -30,21 +35,41 @@ export function FadeAnimation({
     },
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!ref.current) return;
+      const rect = ref.current.getBoundingClientRect();
+
+      // Reset only when moving back above the component
+      // distance between top component and top viewport > screen height
+      if (rect.top > window.innerHeight) {
+        controls.set("hidden");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [controls]);
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [inView, controls]);
+
   return (
     <motion.div
+      ref={ref}
       initial="hidden"
-      whileInView="visible"
+      animate={controls}
+      className={className}
       variants={{
-        hidden: {},
         visible: {
           transition: {
-            staggerChildren: staggerChildren,
+            staggerChildren,
           },
         },
       }}
-      /** @todo: no animation on scroll up */
-      viewport={{ once: false, amount: 0.2 }}
-      className={className}
     >
       {React.Children.map(children, (child) =>
         React.isValidElement(child) ? (

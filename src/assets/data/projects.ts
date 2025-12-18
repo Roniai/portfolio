@@ -130,6 +130,9 @@ export const projectsData = [
     stacks: [PhpSvg, JQuerySvg, BootStrapSvg, TailwindCssSvg, MySqlSvg],
     stacksLabels: [
       LABELS_STACKS.PHP,
+      LABELS_STACKS.PHP_WORD,
+      LABELS_STACKS.PHP_QR,
+      LABELS_STACKS.FPDF,
       LABELS_STACKS.JQUERY,
       LABELS_STACKS.BOOTSTRAP,
       LABELS_STACKS.TAILWIND_CSS,
@@ -164,6 +167,8 @@ export const projectsData = [
     stacks: [PhpSvg, JQuerySvg, BootStrapSvg, MySqlSvg],
     stacksLabels: [
       LABELS_STACKS.PHP,
+      LABELS_STACKS.PHP_EXCEL,
+      LABELS_STACKS.FPDF,
       LABELS_STACKS.JQUERY,
       LABELS_STACKS.BOOTSTRAP,
       LABELS_STACKS.MYSQL,
