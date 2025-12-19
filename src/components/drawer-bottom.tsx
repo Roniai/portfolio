@@ -1,5 +1,4 @@
 import { projectsData } from "@/assets/data/projects";
-import { Button } from "./ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -53,7 +52,7 @@ export const DrawerBottom = async ({ id }: { id: number }) => {
             {projectsData[id].title}
           </h2>
           <div className="mt-5">
-            {parts.map((part: any, index: number) => (
+            {parts.map((part: string, index: number) => (
               <p key={index} className="mb-4">
                 {part.trim()}
               </p>

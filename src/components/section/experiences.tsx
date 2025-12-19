@@ -5,7 +5,7 @@ import { ExperienceCard } from "../experience-card";
 import { MobileSvg, WebSvg } from "@/assets/icons";
 import { COMPANY } from "@/constants/company";
 import { FadeAnimation } from "../fade-animation";
-import { Edirection } from "@/lib/types";
+import { Edirection, TexpItems } from "@/lib/types";
 
 export const Experiences = async () => {
   const t = await getTranslations("ExperiencesPage");
@@ -20,7 +20,7 @@ export const Experiences = async () => {
         className="w-full px-0 sm:px-10 xl:px-36"
         defaultValue="1"
       >
-        {expItems.map((exp: any, index: number) => {
+        {expItems.map((exp: TexpItems, index: number) => {
           return (
             <FadeAnimation
               key={index}

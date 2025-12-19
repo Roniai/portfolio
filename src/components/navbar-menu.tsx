@@ -6,7 +6,7 @@ import { NAVBAR_MENU } from "@/constants/menu";
 import { MenuIcon, XIcon } from "lucide-react";
 import DownloadCV from "./download-cv";
 
-export const NavBarMenu = ({ menu }: { menu: any[] }) => {
+export const NavBarMenu = ({ menu }: { menu: string[] }) => {
   const [open, setOpen] = useState(false);
 
   return (
