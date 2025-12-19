@@ -1,6 +1,6 @@
 "use client";
 import { Edirection } from "@/lib/types";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { Variants, motion, useAnimation, useInView } from "framer-motion";
 import * as React from "react";
 import { useEffect, useRef } from "react";
 
@@ -21,7 +21,7 @@ export function FadeAnimation({
   const controls = useAnimation();
   const inView = useInView(ref, { amount: 0.2 });
 
-  const variants: any = {
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,

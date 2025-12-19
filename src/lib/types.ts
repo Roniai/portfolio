@@ -12,3 +12,12 @@ export enum Edirection {
   LEFT = "left",
   RIGHT = "right",
 }
+
+export type TexpItems = {
+  title: string;
+  type: string;
+  duration: string;
+  startDate: string;
+  endDate: string;
+  description: string[];
+};
