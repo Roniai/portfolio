@@ -1,0 +1,165 @@
+{
+  "SplashScreen": {
+    "greeting": "Dream it. Let me build your mobile app future."
+  },
+  "HomePage": {
+    "greeting": "Hello !",
+    "iam": "I'm",
+    "name": "Fehizoroniaina Indrafo",
+    "title": "Developer Full Stack Mobile",
+    "biography": "Passionate [[Mobile developer]] with 2 years of experience, specializing in [[React Native]].  I take ideas or concepts and turn them into smooth, intuitive, production-ready mobile applications, with a real focus on performance and user impact. For large-scale projects, I also draw on my web (Next / React) and backend (NestJS) skills to build comprehensive, reliable, and scalable solutions. Mobile remains my area of expertise: this is where I focus all my energy to create fast, relevant, and high-value experiences.",
+    "xp": "2 years of experience",
+    "follow": "Follow me on"
+  },
+  "NavBarMenu": { "menu": ["Services", "Skills", "Projects", "Contact"] },
+  "ServicesPage": {
+    "serviceTitle": "What can I do for you ?",
+    "mobileTitle": "Mobile Application",
+    "webTitle": "Web development",
+    "mobile": "Today, having a mobile app is no longer a luxury, it is a necessity for businesses that want to connect with their customers and offer a seamless, fast and accessible experience at all times. As a mobile developer specialising in React Native, I design high-performance apps that are compatible with both Android and iOS, while optimising costs and development times. My goal is to transform your ideas into modern, intuitive, user-centric apps that can make a real impact on your business.",
+    "web": "Having a strong web presence is essential today for any business that wants to exist and thrive in the digital world. A well-designed website is more than just a showcase: it becomes a strategic tool for presenting your business, attracting new customers, automating certain tasks, and selling your products and services. I design customised web solutions tailored to your objectives, enhancing your image and offering a smooth and intuitive experience for your visitors."
+  },
+  "SkillsPage": {
+    "skillsTitle": "My Skills",
+    "skillsSubTitle": "Assets",
+    "assets": [
+      "Organisational skills",
+      "Leadership",
+      "Proactivity",
+      "Meticulousness",
+      "Analytical mind",
+      "Adaptability",
+      "Team spirit",
+      "Autonomy"
+    ]
+  },
+  "ProjectsPage": {
+    "projectTitle": "Some of My Work",
+    "projectsDescription": [
+      "A mobile application for ordering and home delivery, designed to offer a simple, fast and intuitive experience.",
+      "Designed for choirs, this application facilitates song rehearsals while enhancing visibility.",
+      "Mobile solution dedicated to library management: viewing current loans and updating books.",
+      "Mobile application enabling companies to efficiently manage their employees and simplify the viewing and tracking of salaries.",
+      "Portfolio website designed to showcase my projects, skills, and achievements in development, with a modern and intuitive interface.",
+      "Web application developed for the management and authorisation of precious stones leaving Ivato Antananarivo Airport.",
+      "Web solution developed for Orange Madagascar to optimise the management of its product catalogue. It simplifies the creation, tracking and archiving of offers.",
+      "Web application designed for the Customer Service Department of Bank Of Africa, aimed at automating the entry and monitoring of payment method stocks."
+    ],
+    "projectsDetails": [
+      "AZ+ was my first professional project in mobile development. I started as the sole developer of the application alongside a senior developer in charge of the backend, before becoming team lead a few months later.{{break}}The application allows users to order meals, groceries and various products directly from their phone, with a seamless experience including infinite scroll, JWT authentication, product search and basket management. It also integrates location tracking via Google Maps, automatic payment via Mobile Money, as well as delivery tracking and real-time product and store availability.",
+      "Developed to familiarise myself with Expo and provide a tool better suited to our choir, this application replaces the use of PDF files, which made rehearsals impractical. It offers a complete list of songs, a quick search by number or name. The lyrics are clearly formatted to distinguish verses, choruses and bridges, with the option to zoom in and out for easier reading.{{break}}In addition to facilitating rehearsals, the application provides key information such as key, authors and composers, as well as the release date of the songs. Finally, a section dedicated to presenting the choir and its mission helps to raise its profile and promote the community.",
+      "This is a native Android application connected to a Symfony backend, designed to simplify the management of books and readers within a library. It allows users to add, modify or delete readers and books, while offering comprehensive loan management. Users can track the status of a loan in real time, check the availability of a book and ensure better organisation of the catalogue.{{break}}Thanks to this application, the library benefits from a modern tool that centralises its operations, reduces manual tasks and improves the efficiency of loan and return tracking.",
+      "This application was developed as a learning project, with a Spring Boot backend and my first introduction to Expo and React Native on the mobile side. It allows you to manage employees by adding, modifying or deleting their information, including the number of days worked, daily rate and salary. The application automatically calculates total salaries, while providing an overview of the minimum and maximum salaries among employees.{{break}}This project allowed me to strengthen my full-stack skills while experimenting with the implementation of a mobile application connected to a robust backend.",
+      "This project was born out of a desire to have a centralised space where I could easily present myself to clients, recruiters or the general public, without having to rewrite my content on different platforms. As a mobile developer, it also allowed me to familiarise myself with web development, which is essential for creating back offices for mobile projects.{{break}}This site, developed with Next.js and styled with Tailwind CSS, offers a modern, clear and responsive interface, showcasing my projects and career in a professional manner.",
+      "Developed for the Ministry of Mines in Madagascar, this web application facilitates the management of authorisations for the export of precious stones such as quartz, jasper, apatite and opal at Ivato Airport. It allows users to create, modify, delete and view authorisations, with automatic generation of a QR code and PDF for each document.{{break}} Users can also attach files — passport scans, invoices, or other documents — which are stored on the server and accessible when viewing the authorisation.{{break}}The application includes secure authentication and interfaces tailored to different roles, ensuring efficient and organised management of administrative processes related to precious stones.",
+      "This project gave me the opportunity to learn about Angular and Quarkus, as well as REST web service development. The application facilitates the creation and management of the operator's offers (packages). Previously, the marketing department provided information about an offer, and the technical department had to add it manually to the database. With this application, marketing can now create offers directly, while the technical department focuses solely on the technical aspects.{{break}}The application also allows you to manage user roles, as well as add, modify, delete or pause an offer depending on its availability. It thus offers a more fluid process, reduces manual intervention and improves collaboration between the marketing and technical teams.",
+      "This web application was developed for the Customer Service Department of BOA Fianarantsoa, with the aim of simplifying and automating card and cheque management. It allows card requests, transfers or branch changes to be submitted via a form with automatic PDF generation, while facilitating the search and tracking of cards within the branch.{{break}} Cards from head office are organised into Excel batches, and each file can be imported directly into the application: its content is read and automatically saved in the database, eliminating the need for manual data entry. The application also manages mail, tracks cards arriving at the branch and manages cheques, centralising all the department's operations, reducing errors and optimising stock management."
+    ],
+    "viewMore": "View more"
+  },
+  "ExperiencesPage": {
+    "expTitle": "My work experiences",
+    "expItems": [
+      {
+        "title": "Lead Mobile / Full Stack Developer",
+        "type": "Permanent contract",
+        "duration": "1 year 3 months",
+        "startDate": "April 2024",
+        "endDate": "June 2025",
+        "description": [
+          "Development and maintenance of a mobile super-app with React Native.",
+          "Design and development of web services and REST APIs with NestJS, Prisma, Docker and PostgreSQL.",
+          "Close collaboration with the Manager and PO for product development and user needs analysis.",
+          "Support to the PO in the management, configuration and customisation of JIRA.",
+          "Active participation in agile ceremonies: daily, sprint planning, retrospectives.",
+          "Follow-up with the QA team to integrate test feedback and correct anomalies.",
+          "Supervision of a team of developers, implementation of standards and best practices.",
+          "Use of GitLab for versioning and Jest for unit testing.",
+          "Testing, debugging and code review to ensure the quality of deliverables.",
+          "Participation in the publication of the application on Google Play Store and App Store in collaboration with DevOps."
+        ]
+      },
+      {
+        "title": "Front-End Developer / UI Integrator",
+        "type": "Permanent contract",
+        "duration": "3 months",
+        "startDate": "January 2024",
+        "endDate": "March 2024",
+        "description": [
+          "Designing a design system (foundations and reusable components).",
+          "Integration of mock-ups in collaboration with the design team.",
+          "Management and integration of Firestore / Firebase.",
+          "Project monitoring via JIRA.",
+          "In-depth study of JavaScript basics to consolidate skills."
+        ]
+      },
+      {
+        "title": "Full Stack Web Developer",
+        "type": "Freelance",
+        "duration": "3 months",
+        "startDate": "August 2023",
+        "endDate": "October 2023",
+        "description": [
+          "Design and development of a web application to facilitate the management of gemstone release authorisations.",
+          "Automatic generation of QR codes and PDFs for each document, ensuring traceability and practicality.",
+          "Attachment management: secure file storage and access during consultation.",
+          "Implementation of secure authentication and interfaces adapted to different roles for organised and efficient management."
+        ]
+      },
+      {
+        "title": "Web Developer / PHP-MySQL Integrator",
+        "type": "Internship",
+        "duration": "6 months",
+        "startDate": "May 2023",
+        "endDate": "October 2023",
+        "description": [
+          "Integration, redesign and optimisation of existing PHP/MySQL platforms.",
+          "Further development of native PHP and pure SQL skills.",
+          "Integration of Zoho CRM into the platform to enhance functionality.",
+          "Effective management of teamwork, meeting deadlines and improving day-to-day collaboration."
+        ]
+      },
+      {
+        "title": "Junior Full Stack Web Developer",
+        "type": "Internship",
+        "duration": "4 months",
+        "startDate": "March 2021",
+        "endDate": "June 2021",
+        "description": [
+          "Design and development of an intranet web application for managing the offer catalogue, facilitating creation and consultation via a tailored interface.",
+          "Introduction to teamwork and best practices for versioning with GitLab.",
+          "Implementation of REST APIs and discovery of Quarkus (Java), technologies studied and applied in advance of the academic curriculum.",
+          "Completion of a first concrete project with Angular (JavaScript) after prior theoretical studies."
+        ]
+      },
+      {
+        "title": "Junior PHP Web Developer",
+        "type": "Internship",
+        "duration": "3 months",
+        "startDate": "November 2019",
+        "endDate": "January 2020",
+        "description": [
+          "Design and development of a payment management application for customers, using PHP and MySQL.",
+          "Automatic generation of PDFs from a form completed by the user.",
+          "Import and processing of Excel files, with automatic data recording in the database."
+        ]
+      }
+    ]
+  },
+  "ContactPage": {
+    "contactTitle": "Get in touch",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formNamePlaceHolder": "Enter your name",
+    "formEmailPlaceHolder": "Enter your email",
+    "formMessagePlaceHolder": "Enter your message",
+    "letsConnectHeader": "Need a mobile or web application?",
+    "letsConnectBody": "I can help bring your idea to life. Let's talk about your concept, your goals, or even your inspirations.",
+    "letsConnectFooter": "Let's connect — the first step toward your next project starts here.",
+    "sendButton": "Send",
+    "successMessage": "Your message has been sent",
+    "errorMessage": "An error occured, try again",
+    "waitMessage": "Sending... please wait"
+  }
+}

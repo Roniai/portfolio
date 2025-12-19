@@ -1,0 +1,165 @@
+{
+  "SplashScreen": {
+    "greeting": "Rêvez-le. Laissez-moi construire votre application mobile."
+  },
+  "HomePage": {
+    "greeting": "Bonjour !",
+    "iam": "Je suis",
+    "name": "Fehizoroniaina Indrafo",
+    "title": "Développeur Full Stack Mobile",
+    "biography": "[[Développeur Mobile]] passionné avec 2 ans d'expérience, spécialisé en [[React Native]]. Je passe de l'idée ou du concept à des applications mobiles fluides, intuitives et prêtes pour la production, avec un vrai souci de performance et d'impact pour l'utilisateur. Pour les projets d'envergure, je m'appuie aussi sur mes compétences en Web (Next / React) et en Backend (NestJS) afin de construire des solutions complètes, fiables et évolutives. Le mobile reste mon terrain de prédilection : c'est là que je mets toute mon énergie pour créer des expériences rapides, pertinentes et à forte valeur ajoutée.",
+    "xp": "2 ans d'expérience",
+    "follow": "Suivez-moi sur"
+  },
+  "NavBarMenu": { "menu": ["Services", "Compétences", "Projets", "Contact"] },
+  "ServicesPage": {
+    "serviceTitle": "Que puis-je faire pour vous ?",
+    "mobileTitle": "Application mobile",
+    "webTitle": "Développement Web",
+    "mobile": "Aujourd'hui, avoir une application mobile n'est plus un luxe, c'est une nécessité pour les entreprises qui souhaitent se rapprocher de leurs clients et offrir une expérience fluide, rapide et accessible à tout moment. En tant que développeur mobile spécialisé en React Native, je conçois des applications performantes et compatibles à la fois avec Android et iOS, tout en optimisant les coûts et les délais de développement. Mon objectif est de transformer vos idées en applications modernes, intuitives et centrées sur l'utilisateur, capables de créer un réel impact dans votre activité.",
+    "web": "Avoir une présence web solide est aujourd'hui essentiel pour toute entreprise souhaitant exister et évoluer dans le monde numérique. Un site web bien conçu ne se limite pas à une simple vitrine : il devient un outil stratégique pour présenter votre activité, attirer de nouveaux clients, automatiser certaines tâches ou vendre vos produits et services. Je conçois des solutions web sur mesure, pensées pour s'adapter à vos objectifs, valoriser votre image et offrir une expérience fluide et intuitive à vos visiteurs."
+  },
+  "SkillsPage": {
+    "skillsTitle": "Mes compétences",
+    "skillsSubTitle": "Atouts",
+    "assets": [
+      "Capacités d'organisation",
+      "Leadership",
+      "Proactivité",
+      "Minutieux",
+      "Esprit d'analyse",
+      "Adaptabilité",
+      "Esprit d'équipe",
+      "Autonomie"
+    ]
+  },
+  "ProjectsPage": {
+    "projectTitle": "Mes réalisations",
+    "projectsDescription": [
+      "Une application mobile de commande et livraison à domicile, pensée pour offrir une expérience simple, rapide et intuitive.",
+      "Conçue pour les chorales, cette application facilite la répétition des chants tout en renforçant sa visibilité.",
+      "Solution mobile dédiée à la gestion des bibliothèques : consultation des prêts en cours et mise à jour des ouvrages.",
+      "Application mobile permettant aux entreprises de gérer efficacement leurs employés et de simplifier la visualisation ainsi que le suivi des salaires.",
+      "Site web portfolio conçu pour présenter mes projets, compétences et réalisations en développement, avec une interface moderne et intuitive.",
+      "Application web développée, dédiée à la gestion et à l'autorisation de sortie des pierres précieuses à l'aéroport d'Ivato Antananarivo.",
+      "Solution web développée pour Orange Madagascar afin d'optimiser la gestion du catalogue d'offres. L'application simplifie la création, le suivi et l'archivage des offres.",
+      "Application web conçue pour le service Chargé Clientèle de la banque BOA, visant à automatiser la saisie et le suivi des stocks de moyens de paiement."
+    ],
+    "projectsDetails": [
+      "AZ+ a été mon premier projet professionnel en développement mobile. J'ai commencé comme unique développeur de l'application aux côtés d'un sénior en charge du backend, avant de devenir Lead de l'équipe quelques mois plus tard.{{break}}L'application permet de commander repas, courses et produits divers directement depuis son téléphone, avec une expérience fluide incluant infinite scroll, authentification JWT, recherche de produits et gestion du panier. Elle intègre aussi la localisation via Google Maps, le paiement automatique par Mobile Money, ainsi que le suivi des livraisons et la disponibilité des produits et magasins en temps réel.",
+      "Développée pour me familiariser avec Expo et offrir un outil mieux adapté à notre chorale, cette application remplace l'utilisation des fichiers PDF qui rendaient les répétitions peu pratiques. Elle propose une liste complète des chants, une recherche rapide par numéro ou par nom. Les paroles bénéficient d'une mise en forme claire permettant de distinguer les couplets, refrains et ponts, avec la possibilité de zoomer/dézoomer pour un meilleur confort de lecture.{{break}}En plus de faciliter la répétition, l'application fournit des informations clés comme la tonalité, les auteurs et compositeurs, ainsi que la date de sortie des chants. Une section dédiée à la présentation de la chorale et de sa mission contribue enfin à renforcer sa visibilité et à valoriser la communauté.",
+      "Il s'agit d'une application native Android connectée à un backend Symfony, conçue pour simplifier la gestion des livres et des lecteurs au sein d'une bibliothèque. Elle permet d'ajouter, modifier ou supprimer un lecteur et un ouvrage, tout en offrant une gestion complète des prêts. L'utilisateur peut ainsi suivre en temps réel l'état d'un emprunt, vérifier la disponibilité d'un livre et assurer une meilleure organisation du catalogue.{{break}}Grâce à cette application, la bibliothèque bénéficie d'un outil moderne qui centralise ses opérations, réduit les tâches manuelles et améliore l'efficacité du suivi des prêts et retours.",
+      "Cette application a été développée comme projet d'apprentissage, avec un backend en Spring Boot et ma première initiation à Expo et React Native côté mobile. Elle permet de gérer les employés en ajoutant, modifiant ou supprimant leurs informations, notamment le nombre de jours travaillés, le taux journalier et le salaire. L'application calcule automatiquement le total des salaires, tout en offrant une vue sur le salaire minimum et maximum parmi les employés.{{break}}Ce projet m'a permis de renforcer mes compétences full-stack tout en expérimentant la mise en place d'une application mobile connectée à un backend robuste.",
+      "Ce projet est né de la volonté de disposer d'un espace centralisé pour me présenter facilement auprès d'un client, d'un recruteur ou du grand public, sans avoir à réécrire mes contenus sur différentes plateformes. En tant que développeur mobile, il m'a également permis de me familiariser avec le développement web, indispensable pour la création de back-offices liés aux projets mobiles.{{break}}Ce site, développé avec Next.js et stylisé avec Tailwind CSS, offre une interface moderne, claire et responsive, mettant en valeur mes projets et mon parcours de manière professionnelle.",
+      "Développée pour le Ministère des Mines à Madagascar, cette application web facilite la gestion des autorisations de sortie de pierres précieuses comme le quartz, le jaspe, l'apatite ou l'opale à l'aéroport d'Ivato. Elle permet de créer, modifier, supprimer et visualiser les autorisations, avec génération automatique d'un QR Code et d'un PDF pour chaque document.{{break}}Les utilisateurs peuvent également joindre des fichiers en pièces attachées — captures de passeport, factures ou autres documents — qui sont stockés sur le serveur et accessibles lors de la consultation de l'autorisation.{{break}}L'application inclut une authentification sécurisée et des interfaces adaptées aux différents rôles, garantissant une gestion efficace et organisée des processus administratifs liés aux pierres précieuses.",
+      "Ce projet a été pour moi l'occasion de m'initier à Angular et Quarkus, ainsi qu'au développement de services Web REST. L'application facilite la création et la gestion des offres (forfaits) de l'opérateur. Auparavant, le département marketing fournissait les informations sur une offre, et le département technique devait les ajouter manuellement dans la base de données. Avec cette application, le marketing peut désormais créer directement les offres, tandis que le département technique se concentre uniquement sur les aspects techniques.{{break}}L'application permet également de gérer les rôles utilisateurs, ainsi que d'ajouter, modifier, supprimer ou mettre en pause une offre selon sa disponibilité. Elle offre ainsi un processus plus fluide, réduit les interventions manuelles et améliore la collaboration entre les équipes marketing et technique.",
+      "Cette application web a été développée pour le service Chargé Clientèle de la BOA Fianarantsoa, dans le but de simplifier et d'automatiser la gestion des cartes et chèques. Elle permet de soumettre des demandes de carte, de transfert ou de changement d'agence via un formulaire avec génération automatique d'un PDF, tout en facilitant la recherche et le suivi des cartes au sein de l'agence.{{break}}Les cartes provenant du siège sont organisées par lots Excel, et chaque fichier peut être importé directement dans l'application : son contenu est lu et enregistré automatiquement dans la base de données, éliminant ainsi la saisie manuelle. L'application gère également le courrier, le suivi des cartes arrivées en agence et la gestion des chèques, centralisant toutes les opérations du service, réduisant les erreurs et optimisant la gestion des stocks."
+    ],
+    "viewMore": "Voir plus"
+  },
+  "ExperiencesPage": {
+    "expTitle": "Mes expériences",
+    "expItems": [
+      {
+        "title": "Lead Développeur Mobile / Full Stack",
+        "type": "CDI",
+        "duration": "1 an 3 mois",
+        "startDate": "Avril 2024",
+        "endDate": "Juin 2025",
+        "description": [
+          "Développement et maintien de la stabilité d'une super-application mobile avec React Native.",
+          "Conception et développement de services web et API REST avec NestJS, Prisma, Docker et PostgreSQL.",
+          "Collaboration étroite avec le Manager et le PO pour l'évolution du produit et l'analyse des besoins utilisateurs.",
+          "Support au PO dans la gestion, le paramétrage et la personnalisation de JIRA.",
+          "Participation active aux cérémonies agiles : daily, sprint planning, rétrospectives.",
+          "Suivi avec l'équipe QA pour intégrer les retours de tests et corriger les anomalies.",
+          "Encadrement d'une équipe de développeurs, mise en place de normes et bonnes pratiques.",
+          "Utilisation de GitLab pour le versionnement et de Jest pour les tests unitaires.",
+          "Tests, débogage et revue de code afin de garantir la qualité des livrables.",
+          "Participation à la publication de l'application sur Google Play Store et App Store en collaboration avec le DevOps."
+        ]
+      },
+      {
+        "title": "Développeur Front-End / Intégrateur UI",
+        "type": "CDI",
+        "duration": "3 mois",
+        "startDate": "Janvier 2024",
+        "endDate": "Mars 2024",
+        "description": [
+          "Conception d'un design system (fondations et composants réutilisables).",
+          "Intégration des maquettes en collaboration avec l'équipe design.",
+          "Gestion et intégration de Firestore / Firebase.",
+          "Suivi du projet via JIRA.",
+          "Étude approfondie des bases de JavaScript pour consolider les compétences."
+        ]
+      },
+      {
+        "title": "Développeur Web Full Stack",
+        "type": "Freelance",
+        "duration": "3 mois",
+        "startDate": "Août 2023",
+        "endDate": "Octobre 2023",
+        "description": [
+          "Conception et développement d'une application web, facilitant la gestion des autorisations de sortie de pierres précieuses.",
+          "Génération automatique de QR Codes et PDF pour chaque document, assurant traçabilité et praticité.",
+          "Gestion des pièces jointes : stockage sécurisé des fichiers et accès lors de la consultation.",
+          "Mise en place d'une authentification sécurisée et d'interfaces adaptées aux différents rôles pour une gestion organisée et efficace."
+        ]
+      },
+      {
+        "title": "Développeur Web / Intégrateur PHP-MySQL",
+        "type": "Stage",
+        "duration": "6 mois",
+        "startDate": "Mai 2023",
+        "endDate": "Octobre 2023",
+        "description": [
+          "Intégration, refonte et optimisation de plateformes existantes en PHP / MySQL.",
+          "Approfondissement des compétences en PHP natif et en SQL pur.",
+          "Intégration de Zoho CRM dans la plateforme pour enrichir les fonctionnalités.",
+          "Gestion efficace du travail en équipe, respect des délais et amélioration de la collaboration au quotidien."
+        ]
+      },
+      {
+        "title": "Développeur Web Junior / Full Stack",
+        "type": "Stage",
+        "duration": "4 mois",
+        "startDate": "Mars 2021",
+        "endDate": "Juin 2021",
+        "description": [
+          "Conception et développement d'une application web intranet de gestion de catalogue d'offres, facilitant la création et la consultation via une interface adaptée.",
+          "Initiation au travail en équipe et bonnes pratiques de versioning avec GitLab.",
+          "Mise en oeuvre d'API REST et découverte de Quarkus (Java), des technologies étudiées et appliquées de manière anticipée par rapport au cursus académique.",
+          "Réalisation d'un premier projet concret avec Angular (JavaScript) après des études théoriques préalables."
+        ]
+      },
+      {
+        "title": "Développeur Web Junior PHP",
+        "type": "Stage",
+        "duration": "3 mois",
+        "startDate": "Novembre 2019",
+        "endDate": "Janvier 2020",
+        "description": [
+          "Conception et développement d'une application de gestion des moyens de paiement destinée à la clientèle, utilisant PHP et MySQL.",
+          "Génération automatique de PDF à partir d'un formulaire rempli par l'utilisateur.",
+          "Importation et traitement de fichiers Excel, avec enregistrement automatique des données dans la base."
+        ]
+      }
+    ]
+  },
+  "ContactPage": {
+    "contactTitle": "Me contacter",
+    "formName": "Nom",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formNamePlaceHolder": "Entrez votre nom",
+    "formEmailPlaceHolder": "Entrez votre adresse email",
+    "formMessagePlaceHolder": "Entrez votre message",
+    "letsConnectHeader": "Besoin d'une application mobile ou web ?",
+    "letsConnectBody": "Je peux vous aider à la concrétiser. Discutons de votre idée, de vos besoins, ou simplement de vos inspirations.",
+    "letsConnectFooter": "Restons en contact — le premier pas vers votre prochain projet commence ici.",
+    "sendButton": "Envoyer",
+    "successMessage": "Votre message a été envoyé",
+    "errorMessage": "Une erreur s'est produite, veuillez réessayer",
+    "waitMessage": "Envoi en cours... veuillez patienter"
+  }
+}
