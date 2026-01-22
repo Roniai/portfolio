@@ -58,12 +58,12 @@ export const projectsData = [
   {
     title: "Hope Lyrics",
     imagePath: "/pj-hope.jpg",
-    imagePaths: getPathImageNamesRank("pj-hope", "png", 5),
+    imagePaths: getPathImageNamesRank("pj-hope", "png", 8),
     stacks: [ReactSvg, ExpoSvg, TypeScriptSvg],
     stacksLabels: [
       LABELS_STACKS.REACT_NATIVE,
       LABELS_STACKS.EXPO,
-      LABELS_STACKS.ANDROID,
+      LABELS_STACKS.CONTEXT,
       LABELS_STACKS.TYPESCRIPT,
     ],
   },
@@ -109,7 +109,7 @@ export const projectsData = [
     imagePath: "/pj-portfolio.jpg",
     imagePaths: [
       "/pj-portfolio.jpg",
-      ...getPathImageNamesRank("pj-portfolio", "jpg", 3),
+      ...getPathImageNamesRank("pj-portfolio", "jpg", 5),
     ],
     stacks: [NextJsSvg, ReactSvg, TailwindCssSvg, TypeScriptSvg],
     stacksLabels: [
