@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="inline-flex gap-2 items-center">
         <ContactMe />
       </div>
-      <p>Copyright © 2025</p>
+      <p>Copyright © 2025-2026</p>
     </div>
   );
 };
