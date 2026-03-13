@@ -1,0 +1,2 @@
+export const ID_G_ANALYTICS = "G-NVW4SDVMB3";
+export const ID_G_TAGMANAGER = "GTM-MM5HW6PZ";
