@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fehizoroniaina-indrafo.vercel.app/sitemap.xml

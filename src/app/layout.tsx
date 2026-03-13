@@ -4,6 +4,7 @@ import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
 import ClientLayout from "./client-layout";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,22 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className="dark">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <Head>
+        <title>Fehizoroniaina Indrafo</title>
+        <meta name="description" content="My portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="google-site-verification"
+          content="l8F2lVk-xnlQQMrITsJUy9axa0_OnK-ydlPCKKBj0R8"
+        />
+        <link
+          rel="canonical"
+          href="https://fehizoroniaina-indrafo.vercel.app/"
+        />
+        <meta property="og:title" content="Fehizoroniaina Indrafo" />
+        <meta property="og:description" content="My portfolio" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
       >
