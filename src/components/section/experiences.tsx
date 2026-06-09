@@ -18,7 +18,7 @@ export const Experiences = async () => {
         type="single"
         collapsible
         className="w-full px-0 sm:px-10 xl:px-36"
-        defaultValue="1"
+        defaultValue="0"
       >
         {expItems.map((exp: TexpItems, index: number) => {
           return (
@@ -28,7 +28,7 @@ export const Experiences = async () => {
               delay={0.4 + index / 10}
             >
               <ExperienceCard
-                icon={index < 2 ? MobileSvg : WebSvg}
+                icon={index < 3 ? MobileSvg : WebSvg}
                 descriptions={exp.description}
                 stacks={COMPANY[index].stacks}
                 title={exp.title}
@@ -39,7 +39,7 @@ export const Experiences = async () => {
                 companyLocation={COMPANY[index]?.location}
                 company={COMPANY[index]?.name}
                 value={index.toString()}
-                isContinue={index === 0}
+                isContinue={index === 1}
               />
             </FadeAnimation>
           );
