@@ -6,6 +6,7 @@ export enum LABELS_STACKS {
   EXPO = "Expo",
   FPDF = "FPDF",
   RECOIL = "Recoil",
+  REDUX = "Redux",
   CONTEXT = "Context API",
   NEXT_JS = "Next.js",
   BOOTSTRAP = "Bootstrap",
@@ -37,4 +38,9 @@ export enum LABELS_STACKS {
   AGILE = "Agile SCRUM",
   JIRA = "Jira",
   FIGMA = "Figma",
+  WEB_SOCKET = "WebSocket",
+  WEB_RTC = "WebRTC",
+  PLAY_STORE = "Play Store",
+  APP_STORE = "App Store",
+  I18N = "i18n",
 }
