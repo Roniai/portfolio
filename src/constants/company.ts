@@ -1,6 +1,26 @@
 import { LABELS_STACKS } from "./stack-label";
 
 export const COMPANY = [
+    {
+    name: "IROK / Genius At Work",
+    location: "Tsiadana Antananarivo",
+    stacks: [
+      LABELS_STACKS.REACT_NATIVE,
+      LABELS_STACKS.ANDROID,
+      LABELS_STACKS.IOS,
+      LABELS_STACKS.REDUX,
+      LABELS_STACKS.JAVASCRIPT,
+      LABELS_STACKS.FIREBASE,
+      LABELS_STACKS.I18N,
+      LABELS_STACKS.WEB_SOCKET,
+      LABELS_STACKS.WEB_RTC,
+      LABELS_STACKS.APP_STORE,
+      LABELS_STACKS.PLAY_STORE,
+      LABELS_STACKS.FIGMA,
+      LABELS_STACKS.AGILE,
+      LABELS_STACKS.JIRA,
+    ],
+  },
   {
     name: "AZ+",
     location: "Ambohimiandra Antananarivo",
@@ -53,7 +73,7 @@ export const COMPANY = [
     ],
   },
   {
-    name: "Hellotana",
+    name: "Hellopro / Hellotana",
     location: "Antsahavola Antananarivo",
     stacks: [
       LABELS_STACKS.PHP,

@@ -7,8 +7,8 @@
     "iam": "I'm",
     "name": "Fehizoroniaina Indrafo",
     "title": "Developer Full Stack Mobile",
-    "biography": "Passionate [[Mobile developer]] with 2 years of experience, specializing in [[React Native]].  I take ideas or concepts and turn them into smooth, intuitive, production-ready mobile applications, with a real focus on performance and user impact. For large-scale projects, I also draw on my web (Next / React) and backend (NestJS) skills to build comprehensive, reliable, and scalable solutions. Mobile remains my area of expertise: this is where I focus all my energy to create fast, relevant, and high-value experiences.",
-    "xp": "2 years of experience",
+    "biography": "Passionate [[Mobile developer]] with +2 years of experience, specializing in [[React Native]].  I take ideas or concepts and turn them into smooth, intuitive, production-ready mobile applications, with a real focus on performance and user impact. For large-scale projects, I also draw on my web (Next / React) and backend (NestJS) skills to build comprehensive, reliable, and scalable solutions. Mobile remains my area of expertise: this is where I focus all my energy to create fast, relevant, and high-value experiences.",
+    "xp": "+2 years of experience",
     "follow": "Follow me on"
   },
   "NavBarMenu": { "menu": ["Services", "Skills", "Projects", "Contact"] },
@@ -30,7 +30,9 @@
       "Analytical mind",
       "Adaptability",
       "Team spirit",
-      "Autonomy"
+      "Autonomy",
+      "Client relationship",
+      "Proactive problem-solving"
     ]
   },
   "ProjectsPage": {
@@ -60,6 +62,23 @@
   "ExperiencesPage": {
     "expTitle": "My work experiences",
     "expItems": [
+      {
+        "title": "React Native Mobile Developer (Consultant)",
+        "type": "Consultant",
+        "duration": "+6 months",
+        "startDate": "January 2026",
+        "endDate": "Present",
+        "description": [
+          "Maintenance and evolution of React Native applications (iOS & Android) for multiple clients.",
+          "Development of a connected home (Smart Home / home automation) application allowing users to control connected devices from their smartphone: cameras, gates, video doorphones, alarms, lighting and heating.",
+          "Implementation of real-time communication via WebSocket for device control and instant synchronisation of their state.",
+          "Integration of a custom WebRTC engine with H.265/HEVC codec to optimise real-time video streaming from cameras and video doorphones.",
+          "Performance and stability optimisation to reduce latency and bandwidth consumption.",
+          "Publishing and release management on the App Store and Play Store.",
+          "Direct collaboration with clients and their technical teams in a consultant role.",
+          "Analysis of business needs and proposal of technical solutions tailored to each client context."
+        ]
+      },
       {
         "title": "Lead Mobile / Full Stack Developer",
         "type": "Permanent contract",

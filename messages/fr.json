@@ -7,8 +7,8 @@
     "iam": "Je suis",
     "name": "Fehizoroniaina Indrafo",
     "title": "Développeur Full Stack Mobile",
-    "biography": "[[Développeur Mobile]] passionné avec 2 ans d'expérience, spécialisé en [[React Native]]. Je passe de l'idée ou du concept à des applications mobiles fluides, intuitives et prêtes pour la production, avec un vrai souci de performance et d'impact pour l'utilisateur. Pour les projets d'envergure, je m'appuie aussi sur mes compétences en Web (Next / React) et en Backend (NestJS) afin de construire des solutions complètes, fiables et évolutives. Le mobile reste mon terrain de prédilection : c'est là que je mets toute mon énergie pour créer des expériences rapides, pertinentes et à forte valeur ajoutée.",
-    "xp": "2 ans d'expérience",
+    "biography": "[[Développeur Mobile]] passionné avec +2 ans d'expérience, spécialisé en [[React Native]]. Je passe de l'idée ou du concept à des applications mobiles fluides, intuitives et prêtes pour la production, avec un vrai souci de performance et d'impact pour l'utilisateur. Pour les projets d'envergure, je m'appuie aussi sur mes compétences en Web (Next / React) et en Backend (NestJS) afin de construire des solutions complètes, fiables et évolutives. Le mobile reste mon terrain de prédilection : c'est là que je mets toute mon énergie pour créer des expériences rapides, pertinentes et à forte valeur ajoutée.",
+    "xp": "+2 ans d'expérience",
     "follow": "Suivez-moi sur"
   },
   "NavBarMenu": { "menu": ["Services", "Compétences", "Projets", "Contact"] },
@@ -30,7 +30,9 @@
       "Esprit d'analyse",
       "Adaptabilité",
       "Esprit d'équipe",
-      "Autonomie"
+      "Autonomie",
+      "Relation client",
+      "Force de proposition"
     ]
   },
   "ProjectsPage": {
@@ -60,6 +62,23 @@
   "ExperiencesPage": {
     "expTitle": "Mes expériences",
     "expItems": [
+      {
+        "title": "Développeur Mobile React Native (Consultant)",
+        "type": "Consultant",
+        "duration": "+6 mois",
+        "startDate": "Janvier 2026",
+        "endDate": "Présent",
+        "description": [
+          "Maintenance et évolution d'applications React Native (iOS & Android) pour plusieurs clients.",
+          "Développement d'une application de maison connectée (Smart Home / domotique) permettant de piloter depuis le smartphone des équipements connectés : caméras, portails, visiophones, alarmes, éclairage et chauffage.",
+          "Mise en place de la communication temps réel via WebSocket pour le contrôle des appareils et la synchronisation instantanée de leur état.",
+          "Intégration d'un moteur WebRTC custom avec codec H.265/HEVC pour optimiser le streaming vidéo temps réel des caméras et visiophones.",
+          "Optimisation des performances et de la stabilité afin de réduire la latence et la consommation de bande passante.",
+          "Publication et gestion des releases sur l'App Store et le Play Store.",
+          "Collaboration directe avec les clients et leurs équipes techniques en posture de consultant.",
+          "Analyse des besoins métier et proposition de solutions techniques adaptées à chaque contexte client."
+        ]
+      },
       {
         "title": "Lead Développeur Mobile / Full Stack",
         "type": "CDI",
