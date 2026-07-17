@@ -28,3 +28,5 @@ export { default as JQuerySvg } from "./jquery.svg";
 export { default as WebSvg } from "./web.svg";
 export { default as MobileSvg } from "./mobile.svg";
 export { default as MobileColorfulSvg } from "./mobile-colorful.svg";
+export { default as WebSocketSvg } from "./websocket.svg";
+export { default as ReduxSvg } from "./redux.svg";
