@@ -6,13 +6,28 @@ import { MobileSvg, WebSvg } from "@/assets/icons";
 import { COMPANY } from "@/constants/company";
 import { FadeAnimation } from "../fade-animation";
 import { Edirection, TexpItems } from "@/lib/types";
+import { getElapsedSince } from "@/lib/utils";
 
 export const Experiences = async () => {
   const t = await getTranslations("ExperiencesPage");
   const expItems = t.raw("expItems");
 
+  // Durée dynamique pour le poste actuel
+  const buildDuration = (startedAt: string, fallback: string) => {
+    const { years, months } = getElapsedSince(startedAt);
+    const parts = [
+      years > 0 ? t("durationYear", { count: years }) : null,
+      months > 0 ? t("durationMonth", { count: months }) : null,
+    ].filter(Boolean);
+
+    return parts.length > 0 ? parts.join(" ") : fallback;
+  };
+
   return (
-    <section className="font-primary scroll-mt-20 px-4 sm:px-6 xl:px-10">
+    <section
+      id="experiences"
+      className="font-primary scroll-mt-20 px-4 sm:px-6 xl:px-10"
+    >
       <SectionTitle title={t("expTitle")} />
       <Accordion
         type="single"
@@ -21,6 +36,11 @@ export const Experiences = async () => {
         defaultValue="0"
       >
         {expItems.map((exp: TexpItems, index: number) => {
+          const company = COMPANY[index];
+          const duration = company?.startedAt
+            ? buildDuration(company.startedAt, exp.duration)
+            : exp.duration;
+
           return (
             <FadeAnimation
               key={index}
@@ -30,14 +50,14 @@ export const Experiences = async () => {
               <ExperienceCard
                 icon={index < 3 ? MobileSvg : WebSvg}
                 descriptions={exp.description}
-                stacks={COMPANY[index].stacks}
+                stacks={company.stacks}
                 title={exp.title}
                 endDate={exp.endDate}
                 startDate={exp.startDate}
-                duration={exp.duration}
+                duration={duration}
                 type={exp.type}
-                companyLocation={COMPANY[index]?.location}
-                company={COMPANY[index]?.name}
+                companyLocation={company?.location}
+                company={company?.name}
                 value={index.toString()}
                 isContinue={index === 1}
               />
