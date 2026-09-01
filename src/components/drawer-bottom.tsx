@@ -13,17 +13,26 @@ import {
   DrawerHeader,
   DrawerTitle,
 } from "./ui/drawer";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
+import { DemoLink } from "./demo-link";
 import { Badge } from "./ui/badge";
 import { CardContent } from "./ui/card";
 
 export const DrawerBottom = async ({ id }: { id: number }) => {
   const t = await getTranslations("ProjectsPage");
+  const locale = await getLocale();
   const projectsDetails = t.raw("projectsDetails");
   const parts = projectsDetails[id].split("{{break}}");
+  const project = projectsData[id];
+
+  const releaseLabel = project.releasedAt
+    ? new Intl.DateTimeFormat(locale, { month: "long", year: "numeric" }).format(
+        new Date(`${project.releasedAt}-01T00:00:00`),
+      )
+    : null;
 
   return (
-    <DrawerContent>
+    <DrawerContent preventCloseAutoFocus={Boolean(project.demoTargetId)}>
       <DrawerHeader>
         <DrawerTitle></DrawerTitle>
       </DrawerHeader>
@@ -31,7 +40,7 @@ export const DrawerBottom = async ({ id }: { id: number }) => {
         <div className="flex self-center lg:pl-20">
           <Carousel className="w-[70vw] lg:w-[50vw]">
             <CarouselContent className="flex items-center">
-              {projectsData[id].imagePaths.map((path, index) => (
+              {project.imagePaths.map((path, index) => (
                 <CarouselItem key={index}>
                   <CardContent className="flex items-center justify-center w-[70vw] lg:w-[50vw]">
                     <img
@@ -49,8 +58,18 @@ export const DrawerBottom = async ({ id }: { id: number }) => {
         </div>
         <div className="overflow-y-scroll xl:overflow-y-hidden h-[35vh] lg:h-[75vh] xl:h-auto px-6 lg:pl-20">
           <h2 className="text-[clamp(1.5rem,5vw,4rem)] md:text-3xl text-purple-700">
-            {projectsData[id].title}
+            {project.title}
           </h2>
+          {project.version && (
+            <div className="mt-2 flex flex-wrap items-center gap-2">
+              <Badge className="rounded-full">
+                {t("version", { version: project.version })}
+              </Badge>
+              {releaseLabel && (
+                <span className="text-xs capitalize">{releaseLabel}</span>
+              )}
+            </div>
+          )}
           <div className="mt-5">
             {parts.map((part: string, index: number) => (
               <p key={index} className="mb-4">
@@ -58,8 +77,11 @@ export const DrawerBottom = async ({ id }: { id: number }) => {
               </p>
             ))}
           </div>
+          {project.demoTargetId && (
+            <DemoLink targetId={project.demoTargetId} label={t("watchDemo")} />
+          )}
           <div className="mt-5">
-            {projectsData[id].stacksLabels.map((label: string) => (
+            {project.stacksLabels.map((label: string) => (
               <Badge
                 key={label}
                 variant="outline"

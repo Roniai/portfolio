@@ -13,6 +13,7 @@ import {
   NextJsSvg,
   PhpSvg,
   PostgresqlSvg,
+  PrismaSvg,
   QuarkusSvg,
   ReactSvg,
   ReduxSvg,
@@ -24,8 +25,20 @@ import {
   WebSocketSvg,
 } from "../icons";
 import { getPathImageNamesRank } from "@/lib/utils";
+import { SvgProps } from "@/lib/types";
 
-export const projectsData = [
+type TProject = {
+  title: string;
+  imagePath: string;
+  imagePaths: string[];
+  stacks: React.FC<SvgProps>[];
+  stacksLabels: string[];
+  demoTargetId?: string;
+  version?: string;
+  releasedAt?: string;
+};
+
+export const projectsData: TProject[] = [
   {
     title: "CalypsHOME",
     imagePath: "/pj-calypshome.jpg",
@@ -93,12 +106,25 @@ export const projectsData = [
     title: "Hope Lyrics",
     imagePath: "/pj-hope.jpg",
     imagePaths: getPathImageNamesRank("pj-hope", "png", 8),
-    stacks: [ReactSvg, ExpoSvg, TypeScriptSvg],
+    demoTargetId: "demo",
+    version: "2.0.0",
+    releasedAt: "2026-08",
+    stacks: [
+      ReactSvg,
+      ExpoSvg,
+      TypeScriptSvg,
+      NextJsSvg,
+      PrismaSvg,
+      PostgresqlSvg,
+    ],
     stacksLabels: [
       LABELS_STACKS.REACT_NATIVE,
       LABELS_STACKS.EXPO,
       LABELS_STACKS.CONTEXT,
       LABELS_STACKS.TYPESCRIPT,
+      LABELS_STACKS.NEXT_JS,
+      LABELS_STACKS.PRISMA,
+      LABELS_STACKS.POSTGRE_SQL,
     ],
   },
   {

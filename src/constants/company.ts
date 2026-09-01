@@ -1,9 +1,17 @@
 import { LABELS_STACKS } from "./stack-label";
 
-export const COMPANY = [
+type TCompany = {
+  name: string;
+  location: string;
+  stacks: string[];
+  startedAt?: string;
+};
+
+export const COMPANY: TCompany[] = [
     {
     name: "IROK / Genius At Work",
     location: "Tsiadana Antananarivo",
+    startedAt: "2026-01",
     stacks: [
       LABELS_STACKS.REACT_NATIVE,
       LABELS_STACKS.ANDROID,
