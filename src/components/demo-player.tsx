@@ -54,7 +54,7 @@ export const DemoPlayer: React.FC<DemoPlayerProps> = ({
           controls={started}
           playsInline
           preload="none"
-          className="h-full w-full bg-black object-cover"
+          className="h-full w-full bg-black object-contain"
         />
 
         {!started && (
@@ -72,7 +72,7 @@ export const DemoPlayer: React.FC<DemoPlayerProps> = ({
               loop
               playsInline
               preload="metadata"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-contain"
             />
             <span className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/25" />
             <span className="relative flex h-20 w-20 items-center justify-center rounded-full bg-purple-700 shadow-lg transition-transform group-hover:scale-110">
