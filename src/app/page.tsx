@@ -1,5 +1,6 @@
 import { NavBarMenu } from "@/components/navbar-menu";
 import { Contact } from "@/components/section/contact";
+import { Demo } from "@/components/section/demo";
 import { Experiences } from "@/components/section/experiences";
 import { Footer } from "@/components/section/footer";
 import { HomePage } from "@/components/section/home";
@@ -20,6 +21,7 @@ export default async function Home() {
       <main className="overflow-x-hidden">
         <HomePage />
         <div className="flex flex-col space-y-16 xl:container mx-auto px-4">
+          <Demo />
           <Services />
           <Skills />
           <Projects />
