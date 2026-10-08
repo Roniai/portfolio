@@ -127,14 +127,14 @@
         ]
       },
       {
-        "title": "Développeur Front-End / Intégrateur UI",
+        "title": "Développeur Mobile React Native",
         "type": "CDI",
         "duration": "3 mois",
         "startDate": "Janvier 2024",
         "endDate": "Mars 2024",
         "description": [
-          "Conception d'un design system (fondations et composants réutilisables).",
-          "Intégration des maquettes en collaboration avec l'équipe design.",
+          "Conception d'un design system mobile (fondations et composants React Native réutilisables).",
+          "Intégration des maquettes UI dans l'application mobile en collaboration avec l'équipe design.",
           "Gestion et intégration de Firestore / Firebase.",
           "Suivi du projet via JIRA.",
           "Étude approfondie des bases de JavaScript pour consolider les compétences."
