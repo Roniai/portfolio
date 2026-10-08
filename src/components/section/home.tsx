@@ -20,7 +20,7 @@ export const HomePage = async () => {
             </h1>
             <p className="mt-10">
               {t("biography")
-                .split(".") // Transform "." to line break <br />
+                .split(/\.(?=\s|$)/) // Transform end-of-sentence "." to line break <br /> (keeps "Next.js")
                 .map((line, index, array) => {
                   if (index + 1 < array.length)
                     return (
