@@ -1,20 +1,20 @@
 {
   "SplashScreen": {
-    "greeting": "Dream it. Let me build your mobile app future."
+    "greeting": "Dream it. Let me build your app."
   },
   "HomePage": {
     "greeting": "Hello !",
     "iam": "I'm",
     "name": "Fehizoroniaina Indrafo",
-    "title": "Developer Full Stack Mobile",
-    "biography": "Passionate [[Mobile developer]] with 3 years of experience, specializing in [[React Native]].  I take ideas or concepts and turn them into smooth, intuitive, production-ready mobile applications, with a real focus on performance and user impact. For large-scale projects, I also draw on my web (Next / React) and backend (NestJS) skills to build comprehensive, reliable, and scalable solutions. Mobile remains my area of expertise: this is where I focus all my energy to create fast, relevant, and high-value experiences.",
-    "xp": "3 years of experience",
+    "title": "Full Stack & Mobile Developer",
+    "biography": "[[Full Stack & Mobile developer]] with 3+ years of experience, I help digitalise companies across very different sectors: telecoms (Orange Madagascar), banking (BOA), public administration (Ministry of Mines), e-commerce (AZ+, Hellopro) and smart home (French home automation manufacturers). I build [[React Native]] mobile apps, [[React / Next.js]] web applications and [[NestJS]] REST APIs with Prisma and PostgreSQL or MySQL. With my clients, I don't just execute: I analyse their needs, [[propose solutions]] and suggest improvements, both technical and functional.",
+    "xp": "3+ years of experience",
     "follow": "Follow me on"
   },
   "DemoPage": {
     "title": "Hope Lyrics in 3 minutes",
     "privateBadge": "Private project · demo on request",
-    "intro": "A mobile app for choirs, together with its management back-office. The project is live but access is private, so here is the full product walkthrough.",
+    "intro": "A full-stack product I designed and built on my own: a mobile app for choirs and its web management back-office. The project is live but access is private, so here is the full product walkthrough.",
     "play": "Watch the demo with sound",
     "chaptersLabel": "Chapters",
     "chapters": [
@@ -25,7 +25,8 @@
       "Categories · management and syncing",
       "Favourites · light and dark theme",
       "FR/MG multilingual · PDF export"
-    ]
+    ],
+    "stack": "Stack: React Native (Expo) · Next.js · Prisma · PostgreSQL · TypeScript"
   },
   "NavBarMenu": {
     "menu": [
@@ -64,26 +65,24 @@
     "version": "Version {version}",
     "watchDemo": "Watch the demo video",
     "projectsDescription": [
-      "A smart home application that enables users to control, schedule, and automate connected home devices.",
+      "A mobile app for choirs and its web back-office, designed and built on my own, to make song rehearsals easier and raise the choir's profile.",
       "A mobile application for ordering and home delivery, designed to offer a simple, fast and intuitive experience.",
-      "Designed for choirs, this application facilitates song rehearsals while enhancing visibility.",
-      "Mobile solution dedicated to library management: viewing current loans and updating books.",
-      "Mobile application enabling companies to efficiently manage their employees and simplify the viewing and tracking of salaries.",
-      "Portfolio website designed to showcase my projects, skills, and achievements in development, with a modern and intuitive interface.",
       "Web application developed for the management and authorisation of precious stones leaving Ivato Antananarivo Airport.",
       "Web solution developed for Orange Madagascar to optimise the management of its product catalogue. It simplifies the creation, tracking and archiving of offers.",
-      "Web application designed for the Customer Service Department of Bank Of Africa, aimed at automating the entry and monitoring of payment method stocks."
+      "Web application designed for the Customer Service Department of Bank Of Africa, aimed at automating the entry and monitoring of payment method stocks.",
+      "Portfolio website designed to showcase my projects, skills, and achievements in development, with a modern and intuitive interface.",
+      "Mobile application enabling companies to efficiently manage their employees and simplify the viewing and tracking of salaries.",
+      "Mobile solution dedicated to library management: viewing current loans and updating books."
     ],
     "projectsDetails": [
-      "CalypsHOME is a mobile smart home application designed to manage connected home devices from a single, intuitive interface. It allows users to remotely or locally control roller shutters, blinds, Venetian blinds, garage doors, and other connected solar protection systems while providing real-time access to their status for a seamless user experience.{{break}}The application also offers advanced scheduling and automation features, enabling users to create personalized routines and smart scenarios based on their daily habits and environmental conditions. By integrating connected sensors and intelligent automation, CalypsHOME helps improve home comfort, enhance convenience, and optimize energy consumption, making it a comprehensive solution for modern connected living.",
-      "AZ+ was my first professional project in mobile development. I started as the sole developer of the application alongside a senior developer in charge of the backend, before becoming team lead a few months later.{{break}}The application allows users to order meals, groceries and various products directly from their phone, with a seamless experience including infinite scroll, JWT authentication, product search and basket management. It also integrates location tracking via Google Maps, automatic payment via Mobile Money, as well as delivery tracking and real-time product and store availability.",
-      "Developed to familiarize myself with Expo and provide a tool better suited to our choir, this application replaces the use of PDF files, which made rehearsals impractical. It offers a complete list of songs, accompanied by an advanced search by title. The lyrics are clearly formatted to distinguish verses, choruses, and bridges, with the ability to zoom in and out for easier reading.{{break}}In addition to facilitating rehearsals, the application provides key information such as key, authors, composers, and release dates for the songs. Finally, a section dedicated to presenting the choir and its mission helps to raise its profile and promote the community.{{break}}Since its release in March 2025, the app has been continuously evolving. Version 1.3.0, released in January 2026, includes a one-click update feature and a favorites system that allows users to easily save and find important songs.{{break}}Version 2.0.0, released in August 2026, brings its web back-office: managing songs and their lyrics, categories and the photo gallery, with a real-time preview, a bilingual French / Malagasy interface and PDF export.",
-      "This is a native Android application connected to a Symfony backend, designed to simplify the management of books and readers within a library. It allows users to add, modify or delete readers and books, while offering comprehensive loan management. Users can track the status of a loan in real time, check the availability of a book and ensure better organisation of the catalogue.{{break}}Thanks to this application, the library benefits from a modern tool that centralises its operations, reduces manual tasks and improves the efficiency of loan and return tracking.",
-      "This application was developed as a learning project, with a Spring Boot backend and my first introduction to Expo and React Native on the mobile side. It allows you to manage employees by adding, modifying or deleting their information, including the number of days worked, daily rate and salary. The application automatically calculates total salaries, while providing an overview of the minimum and maximum salaries among employees.{{break}}This project allowed me to strengthen my full-stack skills while experimenting with the implementation of a mobile application connected to a robust backend.",
-      "This project was born out of a desire to have a centralised space where I could easily present myself to clients, recruiters or the general public, without having to rewrite my content on different platforms. As a mobile developer, it also allowed me to familiarise myself with web development, which is essential for creating back offices for mobile projects.{{break}}This site, developed with Next.js and styled with Tailwind CSS, offers a modern, clear and responsive interface, showcasing my projects and career in a professional manner.",
+      "Developed to familiarize myself with Expo and provide a tool better suited to our choir, this application replaces the use of PDF files, which made rehearsals impractical. It offers a complete list of songs, accompanied by an advanced search by title. The lyrics are clearly formatted to distinguish verses, choruses, and bridges, with the ability to zoom in and out for easier reading.{{break}}In addition to facilitating rehearsals, the application provides key information such as key, authors, composers, and release dates for the songs. Finally, a section dedicated to presenting the choir and its mission helps to raise its profile and promote the community.{{break}}Since its release in March 2025, the app has been continuously evolving. Version 1.3.0, released in January 2026, includes a one-click update feature and a favorites system that allows users to easily save and find important songs.{{break}}Version 2.0.0, released in August 2026, brings its web back-office, which I built on my own with the help of Claude Code: managing songs and their lyrics, categories and the photo gallery, with a real-time preview, a bilingual French / Malagasy interface and PDF export.",
+      "AZ+ was my first professional project in mobile development. I started as the sole developer of the application alongside a senior developer in charge of the backend, before becoming team lead a few months later, while also designing and building NestJS backend services end to end (users, mailing, etc.) within the backend team.{{break}}The application allows users to order meals, groceries and various products directly from their phone, with a seamless experience including infinite scroll, JWT authentication, product search and basket management. It also integrates location tracking via Google Maps, automatic payment via Mobile Money, as well as delivery tracking and real-time product and store availability.",
       "Developed for the Ministry of Mines in Madagascar, this web application facilitates the management of authorisations for the export of precious stones such as quartz, jasper, apatite and opal at Ivato Airport. It allows users to create, modify, delete and view authorisations, with automatic generation of a QR code and PDF for each document.{{break}} Users can also attach files — passport scans, invoices, or other documents — which are stored on the server and accessible when viewing the authorisation.{{break}}The application includes secure authentication and interfaces tailored to different roles, ensuring efficient and organised management of administrative processes related to precious stones.",
       "This project gave me the opportunity to learn about Angular and Quarkus, as well as REST web service development. The application facilitates the creation and management of the operator's offers (packages). Previously, the marketing department provided information about an offer, and the technical department had to add it manually to the database. With this application, marketing can now create offers directly, while the technical department focuses solely on the technical aspects.{{break}}The application also allows you to manage user roles, as well as add, modify, delete or pause an offer depending on its availability. It thus offers a more fluid process, reduces manual intervention and improves collaboration between the marketing and technical teams.",
-      "This web application was developed for the Customer Service Department of BOA Fianarantsoa, with the aim of simplifying and automating card and cheque management. It allows card requests, transfers or branch changes to be submitted via a form with automatic PDF generation, while facilitating the search and tracking of cards within the branch.{{break}} Cards from head office are organised into Excel batches, and each file can be imported directly into the application: its content is read and automatically saved in the database, eliminating the need for manual data entry. The application also manages mail, tracks cards arriving at the branch and manages cheques, centralising all the department's operations, reducing errors and optimising stock management."
+      "This web application was developed for the Customer Service Department of BOA Fianarantsoa, with the aim of simplifying and automating card and cheque management. It allows card requests, transfers or branch changes to be submitted via a form with automatic PDF generation, while facilitating the search and tracking of cards within the branch.{{break}} Cards from head office are organised into Excel batches, and each file can be imported directly into the application: its content is read and automatically saved in the database, eliminating the need for manual data entry. The application also manages mail, tracks cards arriving at the branch and manages cheques, centralising all the department's operations, reducing errors and optimising stock management.",
+      "This project was born out of a desire to have a centralised space where I could easily present myself to clients, recruiters or the general public, without having to rewrite my content on different platforms. As a mobile developer, it also allowed me to familiarise myself with web development, which is essential for creating back offices for mobile projects.{{break}}This site, developed with Next.js and styled with Tailwind CSS, offers a modern, clear and responsive interface, showcasing my projects and career in a professional manner.",
+      "This application was developed as a learning project, with a Spring Boot backend and my first introduction to Expo and React Native on the mobile side. It allows you to manage employees by adding, modifying or deleting their information, including the number of days worked, daily rate and salary. The application automatically calculates total salaries, while providing an overview of the minimum and maximum salaries among employees.{{break}}This project allowed me to strengthen my full-stack skills while experimenting with the implementation of a mobile application connected to a robust backend.",
+      "This is a native Android application connected to a Symfony backend, designed to simplify the management of books and readers within a library. It allows users to add, modify or delete readers and books, while offering comprehensive loan management. Users can track the status of a loan in real time, check the availability of a book and ensure better organisation of the catalogue.{{break}}Thanks to this application, the library benefits from a modern tool that centralises its operations, reduces manual tasks and improves the efficiency of loan and return tracking."
     ],
     "viewMore": "View more"
   },
@@ -99,14 +98,13 @@
         "startDate": "January 2026",
         "endDate": "Present",
         "description": [
-          "Maintenance and evolution of React Native applications (iOS & Android) for multiple clients.",
-          "Development of a connected home (Smart Home / home automation) application allowing users to control connected devices from their smartphone: cameras, gates, video doorphones, alarms, lighting and heating.",
-          "Implementation of real-time communication via WebSocket for device control and instant synchronisation of their state.",
-          "Integration of a custom WebRTC engine with H.265/HEVC codec to optimise real-time video streaming from cameras and video doorphones.",
+          "Consulting assignment with a French home automation and security group, on its React Native mobile apps (iOS & Android).",
+          "Proactive with the client: analysing business needs, suggesting functional and technical improvements, and proposing solutions tailored to the context.",
+          "Takeover of an existing smart home mobile app to speed up its releases and evolve it: local or remote control of many devices (roller shutters, orientable sun shades, blinds, garage doors, gates, lighting), temperature and light sensor monitoring with history charts, organisation by rooms and groups, automation routines and scheduling, device pairing and configuration.",
+          "Built a custom WebRTC engine from Chromium M138 with H.265/HEVC codec support and integrated it into the mobile app for real-time video streaming from cameras and video doorphones.",
           "Performance and stability optimisation to reduce latency and bandwidth consumption.",
           "Publishing and release management on the App Store and Play Store.",
-          "Direct collaboration with clients and their technical teams in a consultant role.",
-          "Analysis of business needs and proposal of technical solutions tailored to each client context."
+          "Direct collaboration with the client and its technical teams in a consultant role."
         ]
       },
       {
@@ -117,7 +115,7 @@
         "endDate": "June 2025",
         "description": [
           "Development and maintenance of a mobile super-app with React Native.",
-          "Design and development of web services and REST APIs with NestJS, Prisma, Docker and PostgreSQL.",
+          "End-to-end design and development of backend services and REST APIs with NestJS, Prisma, Docker and PostgreSQL (user management, mailing, etc.), within the backend team.",
           "Close collaboration with the Manager and PO for product development and user needs analysis.",
           "Support to the PO in the management, configuration and customisation of JIRA.",
           "Active participation in agile ceremonies: daily, sprint planning, retrospectives.",
@@ -159,7 +157,7 @@
         "title": "Web Developer / PHP-MySQL Integrator",
         "type": "Internship",
         "duration": "5 months",
-        "startDate": "June 2023",
+        "startDate": "May 2023",
         "endDate": "October 2023",
         "description": [
           "Integration, redesign and optimisation of existing PHP/MySQL platforms.",
