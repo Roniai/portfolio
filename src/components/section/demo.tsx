@@ -29,6 +29,9 @@ export const Demo = async () => {
           {t("privateBadge")}
         </Badge>
         <p className="max-w-2xl">{t("intro")}</p>
+        <p className="max-w-2xl text-sm font-semibold text-purple-800 dark:text-purple-500">
+          {t("stack")}
+        </p>
       </div>
       <DemoPlayer
         chapters={chapters}

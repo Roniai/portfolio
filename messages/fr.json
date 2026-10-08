@@ -1,20 +1,20 @@
 {
   "SplashScreen": {
-    "greeting": "Rêvez-le. Laissez-moi construire votre application mobile."
+    "greeting": "Rêvez-le. Laissez-moi construire votre application."
   },
   "HomePage": {
     "greeting": "Bonjour !",
     "iam": "Je suis",
     "name": "Fehizoroniaina Indrafo",
-    "title": "Développeur Full Stack Mobile",
-    "biography": "[[Développeur Mobile]] passionné avec 3 ans d'expérience, spécialisé en [[React Native]]. Je passe de l'idée ou du concept à des applications mobiles fluides, intuitives et prêtes pour la production, avec un vrai souci de performance et d'impact pour l'utilisateur. Pour les projets d'envergure, je m'appuie aussi sur mes compétences en Web (Next / React) et en Backend (NestJS) afin de construire des solutions complètes, fiables et évolutives. Le mobile reste mon terrain de prédilection : c'est là que je mets toute mon énergie pour créer des expériences rapides, pertinentes et à forte valeur ajoutée.",
-    "xp": "3 ans d'expérience",
+    "title": "Développeur Full Stack & Mobile",
+    "biography": "[[Développeur Full Stack & Mobile]] avec plus de 3 ans d'expérience, je participe à la digitalisation d'entreprises de secteurs très différents : télécoms (Orange Madagascar), banque (BOA), administration publique (Ministère des Mines), e-commerce (AZ+, Hellopro) et maison connectée (fabricants français de domotique). Je développe des applications mobiles [[React Native]], des applications web [[React / Next.js]] et des API REST [[NestJS]] avec Prisma et PostgreSQL ou MySQL. Auprès de mes clients, je ne me contente pas d'exécuter : j'analyse leurs besoins, je [[propose des solutions]] et je suggère des améliorations, techniques comme fonctionnelles.",
+    "xp": "+3 ans d'expérience",
     "follow": "Suivez-moi sur"
   },
   "DemoPage": {
     "title": "Hope Lyrics en 3 minutes",
     "privateBadge": "Projet privé · démo sur demande",
-    "intro": "Une application mobile pour les chorales, accompagnée de son back-office de gestion. Le projet est en ligne mais son accès est privé : voici la démonstration complète du produit.",
+    "intro": "Un produit Full Stack que j'ai conçu et développé seul : une application mobile pour les chorales et son back-office web de gestion. Le projet est en ligne mais son accès est privé : voici la démonstration complète du produit.",
     "play": "Voir la démo avec le son",
     "chaptersLabel": "Chapitres",
     "chapters": [
@@ -25,7 +25,8 @@
       "Catégories · gestion et synchronisation",
       "Favoris · thème clair et sombre",
       "Multilingue FR/MG · export PDF"
-    ]
+    ],
+    "stack": "Stack : React Native (Expo) · Next.js · Prisma · PostgreSQL · TypeScript"
   },
   "NavBarMenu": {
     "menu": [
@@ -64,26 +65,24 @@
     "version": "Version {version}",
     "watchDemo": "Revoir la démo vidéo",
     "projectsDescription": [
-      "Application de domotique qui permet de contrôler, programmer et automatiser les équipements connectés de la maison.",
+      "Application mobile pour les chorales et son back-office web, conçus et développés seul, pour faciliter la répétition des chants et renforcer la visibilité de la chorale.",
       "Une application mobile de commande et livraison à domicile, pensée pour offrir une expérience simple, rapide et intuitive.",
-      "Conçue pour les chorales, cette application facilite la répétition des chants tout en renforçant sa visibilité.",
-      "Solution mobile dédiée à la gestion des bibliothèques : consultation des prêts en cours et mise à jour des ouvrages.",
-      "Application mobile permettant aux entreprises de gérer efficacement leurs employés et de simplifier la visualisation ainsi que le suivi des salaires.",
-      "Site web portfolio conçu pour présenter mes projets, compétences et réalisations en développement, avec une interface moderne et intuitive.",
       "Application web développée, dédiée à la gestion et à l'autorisation de sortie des pierres précieuses à l'aéroport d'Ivato Antananarivo.",
       "Solution web développée pour Orange Madagascar afin d'optimiser la gestion du catalogue d'offres. L'application simplifie la création, le suivi et l'archivage des offres.",
-      "Application web conçue pour le service Chargé Clientèle de la banque BOA, visant à automatiser la saisie et le suivi des stocks de moyens de paiement."
+      "Application web conçue pour le service Chargé Clientèle de la banque BOA, visant à automatiser la saisie et le suivi des stocks de moyens de paiement.",
+      "Site web portfolio conçu pour présenter mes projets, compétences et réalisations en développement, avec une interface moderne et intuitive.",
+      "Application mobile permettant aux entreprises de gérer efficacement leurs employés et de simplifier la visualisation ainsi que le suivi des salaires.",
+      "Solution mobile dédiée à la gestion des bibliothèques : consultation des prêts en cours et mise à jour des ouvrages."
     ],
     "projectsDetails": [
-      "CalypsHOME est une application mobile dédiée à la gestion des équipements domotiques de la maison. Elle permet aux utilisateurs de piloter à distance ou en local des volets roulants, stores, brise-soleil orientables, portes de garage et autres protections solaires connectées depuis une interface intuitive. L'application centralise le contrôle des équipements et offre un accès en temps réel à leur état pour simplifier le quotidien.{{break}}Grâce à ses fonctionnalités de planification et d'automatisation, CalypsHOME permet de créer des routines et des scénarios intelligents adaptés aux habitudes de vie et aux conditions environnementales. En exploitant les données des capteurs connectés, l'application contribue à optimiser le confort thermique de l'habitat tout en réduisant la consommation d'énergie. Cette approche fait de CalypsHOME une solution complète pour une maison connectée, plus confortable, plus intelligente et plus économe en énergie.",
-      "AZ+ a été mon premier projet professionnel en développement mobile. J'ai commencé comme unique développeur de l'application aux côtés d'un sénior en charge du backend, avant de devenir Lead de l'équipe quelques mois plus tard.{{break}}L'application permet de commander repas, courses et produits divers directement depuis son téléphone, avec une expérience fluide incluant infinite scroll, authentification JWT, recherche de produits et gestion du panier. Elle intègre aussi la localisation via Google Maps, le paiement automatique par Mobile Money, ainsi que le suivi des livraisons et la disponibilité des produits et magasins en temps réel.",
-      "Développée pour me familiariser avec Expo et offrir un outil mieux adapté à notre chorale, cette application remplace l'utilisation des fichiers PDF qui rendaient les répétitions peu pratiques. Elle propose une liste complète des chants, accompagnée d'une recherche avancée par titre. Les paroles bénéficient d'une mise en forme claire permettant de distinguer les couplets, refrains et ponts, avec la possibilité de zoomer/dézoomer pour un meilleur confort de lecture.{{break}}En plus de faciliter la répétition, l'application fournit des informations clés comme la tonalité, les auteurs et compositeurs, ainsi que la date de sortie des chants. Une section dédiée à la présentation de la chorale et de sa mission contribue enfin à renforcer sa visibilité et à valoriser la communauté.{{break}}Depuis sa sortie en Mars 2025, l'application évolue de manière continue. La version 1.3.0, publiée en Janvier 2026, apporte notamment une mise à jour en un clic, ainsi qu'un système de favoris permettant d'enregistrer et de retrouver facilement les chants importants.{{break}}La version 2.0.0, sortie en août 2026, marque l'arrivée de son back-office web : gestion des chants et de leurs paroles, des catégories et de la galerie photo, avec aperçu en temps réel, interface bilingue français / malgache et export PDF.",
-      "Il s'agit d'une application native Android connectée à un backend Symfony, conçue pour simplifier la gestion des livres et des lecteurs au sein d'une bibliothèque. Elle permet d'ajouter, modifier ou supprimer un lecteur et un ouvrage, tout en offrant une gestion complète des prêts. L'utilisateur peut ainsi suivre en temps réel l'état d'un emprunt, vérifier la disponibilité d'un livre et assurer une meilleure organisation du catalogue.{{break}}Grâce à cette application, la bibliothèque bénéficie d'un outil moderne qui centralise ses opérations, réduit les tâches manuelles et améliore l'efficacité du suivi des prêts et retours.",
-      "Cette application a été développée comme projet d'apprentissage, avec un backend en Spring Boot et ma première initiation à Expo et React Native côté mobile. Elle permet de gérer les employés en ajoutant, modifiant ou supprimant leurs informations, notamment le nombre de jours travaillés, le taux journalier et le salaire. L'application calcule automatiquement le total des salaires, tout en offrant une vue sur le salaire minimum et maximum parmi les employés.{{break}}Ce projet m'a permis de renforcer mes compétences full-stack tout en expérimentant la mise en place d'une application mobile connectée à un backend robuste.",
-      "Ce projet est né de la volonté de disposer d'un espace centralisé pour me présenter facilement auprès d'un client, d'un recruteur ou du grand public, sans avoir à réécrire mes contenus sur différentes plateformes. En tant que développeur mobile, il m'a également permis de me familiariser avec le développement web, indispensable pour la création de back-offices liés aux projets mobiles.{{break}}Ce site, développé avec Next.js et stylisé avec Tailwind CSS, offre une interface moderne, claire et responsive, mettant en valeur mes projets et mon parcours de manière professionnelle.",
+      "Développée pour me familiariser avec Expo et offrir un outil mieux adapté à notre chorale, cette application remplace l'utilisation des fichiers PDF qui rendaient les répétitions peu pratiques. Elle propose une liste complète des chants, accompagnée d'une recherche avancée par titre. Les paroles bénéficient d'une mise en forme claire permettant de distinguer les couplets, refrains et ponts, avec la possibilité de zoomer/dézoomer pour un meilleur confort de lecture.{{break}}En plus de faciliter la répétition, l'application fournit des informations clés comme la tonalité, les auteurs et compositeurs, ainsi que la date de sortie des chants. Une section dédiée à la présentation de la chorale et de sa mission contribue enfin à renforcer sa visibilité et à valoriser la communauté.{{break}}Depuis sa sortie en Mars 2025, l'application évolue de manière continue. La version 1.3.0, publiée en Janvier 2026, apporte notamment une mise à jour en un clic, ainsi qu'un système de favoris permettant d'enregistrer et de retrouver facilement les chants importants.{{break}}La version 2.0.0, sortie en août 2026, marque l'arrivée de son back-office web, que j'ai développé seul avec l'aide de Claude Code : gestion des chants et de leurs paroles, des catégories et de la galerie photo, avec aperçu en temps réel, interface bilingue français / malgache et export PDF.",
+      "AZ+ a été mon premier projet professionnel en développement mobile. J'ai commencé comme unique développeur de l'application aux côtés d'un sénior en charge du backend, avant de devenir Lead de l'équipe quelques mois plus tard, tout en concevant et développant de A à Z des services backend NestJS (utilisateurs, mailing, etc.) au sein de l'équipe backend.{{break}}L'application permet de commander repas, courses et produits divers directement depuis son téléphone, avec une expérience fluide incluant infinite scroll, authentification JWT, recherche de produits et gestion du panier. Elle intègre aussi la localisation via Google Maps, le paiement automatique par Mobile Money, ainsi que le suivi des livraisons et la disponibilité des produits et magasins en temps réel.",
       "Développée pour le Ministère des Mines à Madagascar, cette application web facilite la gestion des autorisations de sortie de pierres précieuses comme le quartz, le jaspe, l'apatite ou l'opale à l'aéroport d'Ivato. Elle permet de créer, modifier, supprimer et visualiser les autorisations, avec génération automatique d'un QR Code et d'un PDF pour chaque document.{{break}}Les utilisateurs peuvent également joindre des fichiers en pièces attachées — captures de passeport, factures ou autres documents — qui sont stockés sur le serveur et accessibles lors de la consultation de l'autorisation.{{break}}L'application inclut une authentification sécurisée et des interfaces adaptées aux différents rôles, garantissant une gestion efficace et organisée des processus administratifs liés aux pierres précieuses.",
       "Ce projet a été pour moi l'occasion de m'initier à Angular et Quarkus, ainsi qu'au développement de services Web REST. L'application facilite la création et la gestion des offres (forfaits) de l'opérateur. Auparavant, le département marketing fournissait les informations sur une offre, et le département technique devait les ajouter manuellement dans la base de données. Avec cette application, le marketing peut désormais créer directement les offres, tandis que le département technique se concentre uniquement sur les aspects techniques.{{break}}L'application permet également de gérer les rôles utilisateurs, ainsi que d'ajouter, modifier, supprimer ou mettre en pause une offre selon sa disponibilité. Elle offre ainsi un processus plus fluide, réduit les interventions manuelles et améliore la collaboration entre les équipes marketing et technique.",
-      "Cette application web a été développée pour le service Chargé Clientèle de la BOA Fianarantsoa, dans le but de simplifier et d'automatiser la gestion des cartes et chèques. Elle permet de soumettre des demandes de carte, de transfert ou de changement d'agence via un formulaire avec génération automatique d'un PDF, tout en facilitant la recherche et le suivi des cartes au sein de l'agence.{{break}}Les cartes provenant du siège sont organisées par lots Excel, et chaque fichier peut être importé directement dans l'application : son contenu est lu et enregistré automatiquement dans la base de données, éliminant ainsi la saisie manuelle. L'application gère également le courrier, le suivi des cartes arrivées en agence et la gestion des chèques, centralisant toutes les opérations du service, réduisant les erreurs et optimisant la gestion des stocks."
+      "Cette application web a été développée pour le service Chargé Clientèle de la BOA Fianarantsoa, dans le but de simplifier et d'automatiser la gestion des cartes et chèques. Elle permet de soumettre des demandes de carte, de transfert ou de changement d'agence via un formulaire avec génération automatique d'un PDF, tout en facilitant la recherche et le suivi des cartes au sein de l'agence.{{break}}Les cartes provenant du siège sont organisées par lots Excel, et chaque fichier peut être importé directement dans l'application : son contenu est lu et enregistré automatiquement dans la base de données, éliminant ainsi la saisie manuelle. L'application gère également le courrier, le suivi des cartes arrivées en agence et la gestion des chèques, centralisant toutes les opérations du service, réduisant les erreurs et optimisant la gestion des stocks.",
+      "Ce projet est né de la volonté de disposer d'un espace centralisé pour me présenter facilement auprès d'un client, d'un recruteur ou du grand public, sans avoir à réécrire mes contenus sur différentes plateformes. En tant que développeur mobile, il m'a également permis de me familiariser avec le développement web, indispensable pour la création de back-offices liés aux projets mobiles.{{break}}Ce site, développé avec Next.js et stylisé avec Tailwind CSS, offre une interface moderne, claire et responsive, mettant en valeur mes projets et mon parcours de manière professionnelle.",
+      "Cette application a été développée comme projet d'apprentissage, avec un backend en Spring Boot et ma première initiation à Expo et React Native côté mobile. Elle permet de gérer les employés en ajoutant, modifiant ou supprimant leurs informations, notamment le nombre de jours travaillés, le taux journalier et le salaire. L'application calcule automatiquement le total des salaires, tout en offrant une vue sur le salaire minimum et maximum parmi les employés.{{break}}Ce projet m'a permis de renforcer mes compétences full-stack tout en expérimentant la mise en place d'une application mobile connectée à un backend robuste.",
+      "Il s'agit d'une application native Android connectée à un backend Symfony, conçue pour simplifier la gestion des livres et des lecteurs au sein d'une bibliothèque. Elle permet d'ajouter, modifier ou supprimer un lecteur et un ouvrage, tout en offrant une gestion complète des prêts. L'utilisateur peut ainsi suivre en temps réel l'état d'un emprunt, vérifier la disponibilité d'un livre et assurer une meilleure organisation du catalogue.{{break}}Grâce à cette application, la bibliothèque bénéficie d'un outil moderne qui centralise ses opérations, réduit les tâches manuelles et améliore l'efficacité du suivi des prêts et retours."
     ],
     "viewMore": "Voir plus"
   },
@@ -99,14 +98,13 @@
         "startDate": "Janvier 2026",
         "endDate": "Présent",
         "description": [
-          "Maintenance et évolution d'applications React Native (iOS & Android) pour plusieurs clients.",
-          "Développement d'une application de maison connectée (Smart Home / domotique) permettant de piloter depuis le smartphone des équipements connectés : caméras, portails, visiophones, alarmes, éclairage et chauffage.",
-          "Mise en place de la communication temps réel via WebSocket pour le contrôle des appareils et la synchronisation instantanée de leur état.",
-          "Intégration d'un moteur WebRTC custom avec codec H.265/HEVC pour optimiser le streaming vidéo temps réel des caméras et visiophones.",
+          "Mission de consultant auprès d'un groupe français de domotique et de sécurité, sur ses applications mobiles React Native (iOS & Android).",
+          "Force de proposition auprès du client : analyse des besoins métier, suggestion d'améliorations fonctionnelles et techniques, et proposition de solutions adaptées au contexte.",
+          "Reprise d'une application mobile existante de maison connectée pour accélérer ses livraisons et la faire évoluer : pilotage local ou à distance de nombreux équipements (volets roulants, brise-soleil orientables, stores, portes de garage, portails, éclairage), suivi des capteurs de température et de luminosité avec historiques graphiques, organisation par pièces et groupes, routines et planning d'automatisation, ajout et configuration des équipements.",
+          "Compilation d'un moteur WebRTC custom à partir de Chromium M138 avec support du codec H.265/HEVC, et intégration dans l'application mobile pour le streaming vidéo temps réel des caméras et visiophones.",
           "Optimisation des performances et de la stabilité afin de réduire la latence et la consommation de bande passante.",
           "Publication et gestion des releases sur l'App Store et le Play Store.",
-          "Collaboration directe avec les clients et leurs équipes techniques en posture de consultant.",
-          "Analyse des besoins métier et proposition de solutions techniques adaptées à chaque contexte client."
+          "Collaboration directe avec le client et ses équipes techniques en posture de consultant."
         ]
       },
       {
@@ -117,7 +115,7 @@
         "endDate": "Juin 2025",
         "description": [
           "Développement et maintien de la stabilité d'une super-application mobile avec React Native.",
-          "Conception et développement de services web et API REST avec NestJS, Prisma, Docker et PostgreSQL.",
+          "Conception et développement de A à Z de services backend et d'API REST avec NestJS, Prisma, Docker et PostgreSQL (gestion des utilisateurs, envoi d'e-mails, etc.), au sein de l'équipe backend.",
           "Collaboration étroite avec le Manager et le PO pour l'évolution du produit et l'analyse des besoins utilisateurs.",
           "Support au PO dans la gestion, le paramétrage et la personnalisation de JIRA.",
           "Participation active aux cérémonies agiles : daily, sprint planning, rétrospectives.",
@@ -159,7 +157,7 @@
         "title": "Développeur Web / Intégrateur PHP-MySQL",
         "type": "Stage",
         "duration": "5 mois",
-        "startDate": "Juin 2023",
+        "startDate": "Mai 2023",
         "endDate": "Octobre 2023",
         "description": [
           "Intégration, refonte et optimisation de plateformes existantes en PHP / MySQL.",
