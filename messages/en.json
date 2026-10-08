@@ -127,14 +127,14 @@
         ]
       },
       {
-        "title": "Front-End Developer / UI Integrator",
+        "title": "React Native Mobile Developer",
         "type": "Permanent contract",
         "duration": "3 months",
         "startDate": "January 2024",
         "endDate": "March 2024",
         "description": [
-          "Designing a design system (foundations and reusable components).",
-          "Integration of mock-ups in collaboration with the design team.",
+          "Design of a mobile design system (foundations and reusable React Native components).",
+          "Integration of UI mockups into the mobile app in collaboration with the design team.",
           "Management and integration of Firestore / Firebase.",
           "Project monitoring via JIRA.",
           "In-depth study of JavaScript basics to consolidate skills."
